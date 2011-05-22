@@ -61,4 +61,4 @@ timeslots:
     end:   &end_of_slot12
       2011-07-16T21:30:00+09:00
     event_ids:
-      - 16MDN
+      - 16SDN
