@@ -151,8 +151,9 @@
         en: Shyouhei URABE
         ja: 卜部昌平
       affiliation:
-        en:
-        ja:
+        en: Network Applied Communication Laboratory
+        ja: 株式会社ネットワーク応用通信研究所
+      gravatar: 9d2f78236e45a335301ba1195026105d
 - section:
     name:
       en: i18n
