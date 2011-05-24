@@ -25,6 +25,15 @@ tech_lion02:
   location: "Naked Loft (Tokyo, Japan)"
   pub_date: '2011-05-11'
 
+jrubykaigi2011:
+  name_en: 'JRubyKaigi2011'
+  name_ja: 'JRuby会議2011'
+  dtstart: '2011-07-15 19:00'
+  dtend: '2011-07-15 22:00'
+  url: ""
+  location: "TBD (Tokyo, Japan)"
+  pub_date: '2011-05-01'
+
 rubykaigi2011:
   name_en: 'RubyKaigi2011'
   name_ja: '日本Ruby会議2011'
