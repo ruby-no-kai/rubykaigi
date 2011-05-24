@@ -188,8 +188,9 @@
         en: Norio
         ja: のりお
       affiliation:
-        en: Ibaraki Ruby-no-kai
-        ja: 茨城Rubyの会
+        en: @norio, pixiv Inc.
+        ja: ピクシブ株式会社
+      gravatar: 465f37a716f559211948394e549a164d
 - section:
     name:
       en: "KaigiFreaks::ReportTeam"
