@@ -2,10 +2,10 @@
 presenters:
   - name: 
       en: Shota Fukumori (sora_h)
-      ja: 
+      ja: Shota Fukumori (sora_h)
     affiliation: 
       en: Team Pasra
-      ja: 
+      ja: Team Pasra
     bio: 
       en: |-
         Youngest Ruby Committer who the most don't know Ruby implementation,
@@ -24,8 +24,10 @@ abstract:
     School and High School students and how I saw Ruby communities before
     I joined the community. Finally speculate why students aren't joining
     the community and describe why they should join the community.
+    Note for non-Japanese, All slides are written in English so feel free
+    to listening.
   ja: 
     "Rubyコミッタとなった自分が昔コミュニティをどう見ていたか、そして自分がRubyコミュニティに参加しどう自分が変わったか、なぜ中高生がたくさんコミュニティにいないのかをふつうの中高生の視点から、解決案を提案します。\n\
       また、中高生がコミュニティに積極的に参加すべき理由などを中高生の目線から考えます。\n\
-      テーマ\": \"中高生から見たRuby界隈"
+      テーマ: \"中高生から見たRuby界隈\""
 language: Japanese
