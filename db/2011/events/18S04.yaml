@@ -13,12 +13,14 @@ presenters:
       ja: "井上真(New Bamboo) \n\
         2004年からロンドンに在住中の逆輸入Rubyist（日本にいる時はRubyのこと知りませんでした。すみません）。元DBA(Sybase)。2010のRubyKaigiでは「リアルタイムウェブができるまで」というトピックで発表。http://sinsai.info という震災情報サイトでは翻訳班として活動中。赤い王子様の本を英訳中。「Railsで目指せ、情熱エンジニア」というタイトルで@ITでも執筆中"
 title: 
-  en: The Great Eastern Japan Earthquake and what you can do as a Rubyist ?
-  ja: "3/11 そしてRubyistとしてできること"
+  en: The Great Eastern Japan Earthquake and what you can do as a Rubyist ? (The talk will be in English)　
+  ja: "3/11 そしてRubyistとしてできること（英語で講演予定）"
 abstract: 
   en: The Great Eastern Japan Earthquake on March 11th caused devastating impact across Japan. However, there were numerous efforts amongst Japanese hackers to help the disaster hit areas. Throughout this talk, I will explain what kind of activities occurred right after the earthquake, and will discuss what we can do as Rubyists to help the people affected by the disaster. The talk will be done in English.
   ja: "2011年３月11日におきた東日本大震災と津波によって東日本の各地において過去に例がないほどの多大な被害をうけましたが、それと同時に\n\
     インターネットやソーシャルメディアを通じて様々な活動がボランティアの手によっておこなわれてきましたし、現在もおこなわれています。\n\
     このトークでは地震発生直後にどのような活動が行われたか、現在どのような活動が行われているか、そして我々Rubyistがどのような形で\n\
-    関わっていく事ができるかについて一緒に考えていく場としたいと思います。"
+    関わっていく事ができるかについて一緒に考えていく場としたいと思います。\n
+    海外からお越しのRubyistのみなさんに特に聞いていただきたいので英語での講演を予定しています。
+    "
 language: English
