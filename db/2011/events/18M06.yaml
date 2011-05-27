@@ -9,6 +9,7 @@ presenters:
     bio: 
       en: He is the president of ClearCode Inc. He is also a developer of RSS Parser, Rabbit, rcairo, Ruby-GNOME2,test-unit 2.x, rroonga, rurema-search, ActiveLdap, ActiveSambaLdap, Ruby and more free softwares.
       ja: "株式会社クリアコード代表取締役。RSS ParserとRabbitとrcairoとRuby-GNOME2とtest-unit 2.xとrroongaとるりまサーチとActiveLdapとActiveSambaLdapとRubyなどのフリーソフトウェア開発者。"
+    gravatar: kou@clear-code.com
 title: 
   en: How to create a testing framework
   ja: "テスティングフレームワークの作り方"
