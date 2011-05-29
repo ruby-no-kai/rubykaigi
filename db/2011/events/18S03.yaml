@@ -9,6 +9,7 @@ presenters:
     bio: 
       en: Andrew Grimm is a bioinformatician at the University of New South Wales in Sydney, Australia. He came across Ruby while using Rails at his previous job associated with the Encyclopedia of Life, but now specialises in Plain Old Ruby Objects. Previous projects (outside of work) analyzed why you always end up at "Philosophy" in Wikipedia, and a mutation tester in which zombies eat your brains unless your unit tests can kill them all.
       ja: 
+    gravatar: 01bbb59a1c3ef9960f25a97afe7e920f
 title: 
   en: Finding Black Holes in Ruby with the Small Eigen Collider
   ja: 
