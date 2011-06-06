@@ -28,23 +28,4 @@ abstract:
     この問題を解決するするために，Classboxes や Refinements が提案されたが，これらには問題や制限が有る．
     この発表では，新たなモジュールシステムである "Method Shelters" を提案し，
     既存のシステムとの差異を述べる．
-    Details of your talk (English or Japanese / Used in selection)
-    (optional): Classboxes は，クラスへの拡張をclassboxというモジュールに閉じ込めることが出来るシステムである．
-    しかし，インポートした他のclassboxのメソッドを上書きできる "local-rebinding"
-    という性質の影響が大きすぎるため，メソッドが衝突する危険性が依然として残る．
-    また，どのclassboxのメソッドを呼ぶかを決定するためにコールスタックを調べる必要があるため，
-    パフォーマンスへの影響が大きい．
-
-    Refinements はレキシカルな範囲でメソッドの置き換えを行えるが，これでは能力が弱い．
-
-    提案する "Method Shelters" では，新たなモジュール，method shelter (省略して shelter) を導入する．
-    メソッドはshelter内で定義することで，有効な範囲をshelter内に制限できる．
-    また，shelter は 他の shelter をインポートすることで，他のshelter内のメソッドを呼び出したり，
-    上書きできる．
-    これに加えて，他のshelter により上書きできないメソッドを shelter 内で定義でき，
-    意図しないメソッドの上書きから重要なメソッドを守ることが出来る．
-
-    Method Shelters ではどのメソッドを呼ぶかを決定するためにコールスタックを見る必要がないため，
-    パフォーマンスは実用上問題ない範囲に収まる(はず)．
-    また，特定のメソッドの再定義をshelter内に限定することにより，パフォーマンスが向上する場合がある．
 language: Japanese
