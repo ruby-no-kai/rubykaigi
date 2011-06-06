@@ -23,7 +23,7 @@ abstract:
     This presentation proposes new module system named "Method Shelters" and
     shows difference between Method Shelters and other systems.
   ja: |-
-    オープクラスにより，Ruby は 多大な言語の柔軟性を獲得した．
+    オープンクラスにより，Ruby は 多大な言語の柔軟性を獲得した．
     しかし，これにより同名のメソッドが衝突する危険性も孕んでしまった．
     この問題を解決するするために，Classboxes や Refinements が提案されたが，これらには問題や制限が有る．
     この発表では，新たなモジュールシステムである "Method Shelters" を提案し，
