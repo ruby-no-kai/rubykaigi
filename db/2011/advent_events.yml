@@ -1,4 +1,15 @@
 enishitech_cafe:
+  hosted_by_en: 'toRuby'
+  hosted_by_ja: 'toRuby'
+  name_en: 'toRuby (guRuby / yokohama.rb)'
+  name_ja: 'toRuby 出張版(協賛 guRuby, yokohama.rb)'
+  dtstart: '2011-07-17 11:30'
+  dtend: '2011-07-17 13:30'
+  url: "http://pub.cozmixng.org/~the-rwiki/rw-cgi.rb?cmd=view;name=toRuby"
+  location: "Nerima Culture Center (Tokyo, Japan)"
+  pub_date: '2011-07-17'
+
+enishitech_cafe:
   hosted_by_en: 'EnishiTech,Inc.'
   hosted_by_ja: 'えにしテック'
   name_en: 'EnishiTech Cafe'
