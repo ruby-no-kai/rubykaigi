@@ -9,6 +9,7 @@ presenters:
     bio: 
       en: He is a programmer in Eiwa System Management,Inc. member of Japanese Society for Quality Control (JSQC). His lifework is to develop Rails ap plication and tDiary(The tsukkomi oriented weblog).
       ja: "サービスプロバイディング事業部プログラマ、品質管理学会 正会員、Rails を使った業務システムや tDiary という Web 日記システムを作っています。"
+    gravatar: eabad423977cfc6873b8f5df62b848a6
 title: 
   en: The Art of "Legacy" Ruby Code Maintainance
   ja: "Ruby遺産とレガシーコード修理技術"
