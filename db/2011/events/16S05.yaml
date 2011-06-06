@@ -14,6 +14,7 @@ presenters:
       ja: "GC好きのRubyコミッタ。\n\
         RubyKaigi Driven Development(RDD)によるGC開発が得意。\n\
         怖い言葉は「Revertしてください」"
+    gravatar: 9f859654c118bcd2f67cc763baf0de7a
 title: 
   en: Parallel world of CRuby's GC
   ja: "CRubyGCの並列世界"
