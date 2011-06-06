@@ -9,6 +9,7 @@ presenters:
     bio: 
       en: Hiro Asari is a JRuby Support Engineer at Engine Yard. He is also a JRuby committer. Ruby has freed him from his past professional life as a database administrator and as a hobbyist Perl hacker.
       ja: 
+    gravatar: 40e5e9fe36a1f85166493faac2c17499
 title: 
   en: Know Ruby, will travel
   ja: "Rubyを持て、世界に出よう！"
