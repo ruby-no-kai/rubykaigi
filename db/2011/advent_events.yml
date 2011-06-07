@@ -74,3 +74,14 @@ rubykaigi2011:
   url: "http://rubykaigi.org/2011"
   location: "Nerima Culture Center (Tokyo, Japan)"
   pub_date: '2011-05-01'
+
+mitaka_rb:
+  hosted_by_en: 'Mitaka.rb'
+  hosted_by_ja: 'Mitaka.rb'
+  name_en: 'Mitaka.rb#12'
+  name_ja: 'Mitaka.rb第12回'
+  dtstart: '2011-06-21 20:00'
+  dtend: '2011-06-21 23:00'
+  url: "http://atnd.org/events/16665"
+  location: "Little Star Restaurant  (Tokyo, Japan)"
+  pub_date: '2011-06-07'
