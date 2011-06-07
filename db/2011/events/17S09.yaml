@@ -9,6 +9,7 @@ presenters:
     bio:
       en: Ph.D. student in Dept. of Mathematical and Computing Sciences at Tokyo Institute of Technology
       ja: "しがない博士課程の学生．プログラミング言語とかモジュール化とかを研究．"
+    gravatar: a129af622d3faa2c90d448401a3f6faa
 title:
   en: "Method Shelters : Another Way to Resolve Class Extension Conflicts"
   ja: "Method Shelters : Classboxes でも Refinements でもない別のやり方"
