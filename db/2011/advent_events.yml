@@ -42,6 +42,17 @@ tech_lion02:
   location: "Naked Loft (Tokyo, Japan)"
   pub_date: '2011-05-11'
 
+devlove_birthday:
+  hosted_by_en: 'DevLOVE'
+  hosted_by_ja: 'DevLOVE'
+  name_en: 'DevLOVE Birthday! - The birth one in the way back of RubyKaigi'
+  name_ja: 'DevLOVE Birthday! ～RubyKaigiの帰り道に生まれしもの～'
+  dtstart: '2011-06-21 19:30'
+  dtend: '2011-06-21 22:00'
+  url: "http://kokucheese.com/event/index/12560/"
+  location: "Classmethod,Inc. (Tokyo, Japan)"
+  pub_date: '2011-06-08'
+
 ruby_workshop_in_sapporo:
   hosted_by_en: 'RubySapporo'
   hosted_by_ja: 'Ruby札幌'
