@@ -4,16 +4,17 @@ presenters:
       en: Wen-Tien Chang
       ja: 
     affiliation: 
-      en: Ruby Taiwan
+      en: "Ruby Taiwan & Optimis International"
       ja: 
     bio: 
       en: "張文鈿 (a.k.a. ihower) is the lead software developer at OptimisDev Taiwan. He has worked with Ruby on Rails since 2006. Also, ihower is the founder of Ruby Taiwan community (http://ruby.tw) and RubyConf Taiwan (http://rubyconf.tw). He currently lives in Taipei, blogs at ihower.tw and tweets as @ihower."
       ja: 
+    gravatar: c38fd9074fb072551c0ff80ccd90d24e
 title: 
-  en: "BDD Unit Testing: RSpec and MiniTest:Spec"
+  en: "BDD style Unit Testing"
   ja: 
 abstract: 
   en: "RSpec is a Behaviour-Driven Development tool for Ruby programmers, and it's  popular in many Ruby and Rails projects. MiniTest is the new standard unit testing framework supplied with Ruby 1.9, and it also includes a compact BDD DSL syntax like RSpec. Both of them provide readable and expressive syntax to write test/spec code.\n\n\
-    This talk will introduce their BDD syntax and its mocks feature. More important, how do we use it to write good unit testing? How to mock right and avoid its pitfall? How do we maintain our test/spec code? "
+    This talk will introduce their BDD syntax and its mocks feature. More important, how do we use it to write good unit testing."
   ja: 
 language: English
