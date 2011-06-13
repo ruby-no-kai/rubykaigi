@@ -96,3 +96,14 @@ mitaka_rb:
   url: "http://atnd.org/events/16665"
   location: "Little Star Restaurant  (Tokyo, Japan)"
   pub_date: '2011-06-07'
+
+trbmeetup:
+  hosted_by_en: 'Toyko Rubyist Meetup'
+  hosted_by_ja: 'Toyko Rubyist Meetup'
+  name_en: 'Ruby in the Park'
+  name_ja: 'Ruby in the Park'
+  dtstart: '2011-07-13 18:00'
+  dtend: '2011-07-13 22:00'
+  url: "http://www.tokyorubyistmeetup.org/"
+  location: "Yoyogi Park"
+  pub_date: '2011-06-13'
