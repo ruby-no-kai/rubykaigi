@@ -96,3 +96,14 @@ mitaka_rb:
   url: "http://atnd.org/events/16665"
   location: "Little Star Restaurant  (Tokyo, Japan)"
   pub_date: '2011-06-07'
+
+metacon2011:
+  hosted_by_en: 'metacon'
+  hosted_by_ja: '勉強会勉強会'
+  name_en: 'Metacon 2011'
+  name_ja: '勉強会カンファレンス2011'
+  dtstart: '2011-06-25 10:00'
+  dtend: '2011-06-25 19:00'
+  url: "https://sites.google.com/site/metacon2011/"
+  location: "Rakuten Tower 2, Rakuten Inc.  (Tokyo, Japan)"
+  pub_date: '2011-06-08'
