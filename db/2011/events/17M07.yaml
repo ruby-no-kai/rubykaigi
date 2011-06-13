@@ -22,6 +22,7 @@ title:
   en: Efficient JavaScript integration testing with Ruby and V8 engine.
   ja: 
 abstract: 
-  en: This presentation will introduce you V8 JavaScript engine and the fresh Mustang gem, which brings most of V8's features into Ruby world. V8 is open source, high performance JavaScript engine written in C++, used i.a. by Google Chrome and Node.JS. V8 enables any C/C++ application to expose its own objects and functions to JavaScript code. Thanks to this we could build our own, efficient, headless browser for testing purposes. This presentation for sure will change your life by showing you how easy and fast can be integration testing thanks to V8 and Mustang goodies.
+  en: This presentation will introduce you V8 JavaScript engine and Mike - the headless browser based on it. V8 is open source, high performance JavaScript engine written in C++, used i.a. by Google Chrome and Node.JS. V8 enables any C/C++ application to expose its own objects and functions to JavaScript code. Thanks to this we could build our own, efficient, headless browser for testing purposes. This presentation for sure will change your life by showing you how easy and fast can be integration testing thanks to V8 and Mike goodies.
   ja: 
 language: English
+gravatar: 52026b2d24e49cb5483e4922f0eddd40
