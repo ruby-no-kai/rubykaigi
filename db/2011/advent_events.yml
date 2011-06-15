@@ -118,3 +118,25 @@ trbmeetup:
   url: "http://www.tokyorubyistmeetup.org/"
   location: "Yoyogi Park"
   pub_date: '2011-06-13'
+
+cookpad_ja:
+  hosted_by_en: 'COOKPAD Inc.'
+  hosted_by_ja: 'COOKPAD Inc.'
+  name_en: 'Ruby Recipes and Japanese Cooking at COOKPAD (in Japanese)'
+  name_ja: 'Ruby Recipes and Japanese Cooking at COOKPAD (日本語)'
+  dtstart: '2011-07-14 19:00'
+  dtend: '2011-07-14 22:00'
+  url: "http://techlife.cookpad.com/2011/06/15/rrjcc/"
+  location: "Minato-ku, Shirokanedai"
+  pub_date: '2011-06-15'
+
+cookpad_en:
+  hosted_by_en: 'COOKPAD Inc.'
+  hosted_by_ja: 'COOKPAD Inc.'
+  name_en: 'Ruby Recipes and Japanese Cooking at COOKPAD (in English)'
+  name_ja: 'Ruby Recipes and Japanese Cooking at COOKPAD (英語)'
+  dtstart: '2011-07-15 19:00'
+  dtend: '2011-07-15 22:00'
+  url: "http://techlife.cookpad.com/2011/06/15/rrjcc/"
+  location: "Minato-ku, Shirokanedai"
+  pub_date: '2011-06-15'
