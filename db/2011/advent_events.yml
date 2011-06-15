@@ -109,8 +109,8 @@ metacon2011:
   pub_date: '2011-06-08'
 
 trbmeetup:
-  hosted_by_en: 'Toyko Rubyist Meetup'
-  hosted_by_ja: 'Toyko Rubyist Meetup'
+  hosted_by_en: 'Tokyo Rubyist Meetup'
+  hosted_by_ja: 'Tokyo Rubyist Meetup'
   name_en: 'Ruby in the Park'
   name_ja: 'Ruby in the Park'
   dtstart: '2011-07-13 18:00'
