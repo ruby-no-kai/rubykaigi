@@ -140,3 +140,14 @@ cookpad_en:
   url: "http://techlife.cookpad.com/2011/06/15/rrjcc/"
   location: "Minato-ku, Shirokanedai"
   pub_date: '2011-06-15'
+
+rspec_sapporo_07:
+  hosted_by_en: 'Sapporo.rb'
+  hosted_by_ja: 'Sapporo.rb'
+  name_en: 'The RSpec Book Reading Sapporo 07'
+  name_ja: 'The RSpec Book Reading Sapporo 07'
+  dtstart: '2011-06-20 19:00'
+  dtend: '2011-06-20 21:00'
+  url: "http://qwik.jp/RubySapporo/The_RSpec_Book_Reading_Sapporo_07.html"
+  location: '粋 Laboratory (Sapporo, Japan) [<a href="http://maps.google.co.jp/maps?q=%E7%B2%8B+Laboratory&ie=UTF8&hl=ja&brcurrent=3,0x5f0b299b45607ae1:0x850628b2828d8342,0&ll=43.058337,141.349883&spn=0.001521,0.001912&z=19">Map</a>]'
+  pub_date: '2011-06-16'
