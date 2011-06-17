@@ -118,6 +118,17 @@ trbmeetup:
   url: "http://www.tokyorubyistmeetup.org/"
   location: "Yoyogi Park"
   pub_date: '2011-06-13'
+  
+hamamatsu_rb:
+  hosted_by_en: 'Hamamatsu.rb'
+  hosted_by_ja: 'Hamamatsu.rb'
+  name_en: 'Hamamatsu.rb#5'
+  name_ja: 'Hamamatsu.rb#5'
+  dtstart: '2011-07-13 19:00'
+  dtend: '2011-07-13 21:00'
+  url: "http://atnd.org/events/16961"
+  location: "Hi-Cube (Hamamatsu, Japan)"
+  pub_date: '2011-06-17'
 
 cookpad_ja:
   hosted_by_en: 'COOKPAD Inc.'
