@@ -140,3 +140,47 @@ cookpad_en:
   url: "http://techlife.cookpad.com/2011/06/15/rrjcc/"
   location: "Minato-ku, Shirokanedai"
   pub_date: '2011-06-15'
+
+asakusacruising2011_ja:
+  hosted_by_en: 'asakusa.rb'
+  hosted_by_ja: 'asakusa.rb'
+  name_en: 'Asakusa Cruising 2011'
+  name_ja: 'Asakusa Cruising 2011'
+  dtstart: '2011-07-12 10:00'
+  dtend: '2011-07-12 19:00'
+  url: "http://qwik.jp/asakusarb/hack113.html"
+  location: "Taito-ku, Asakusa"
+  pub_date: '2011-06-16'
+
+asakusacruising2011_en:
+  hosted_by_en: 'asakusa.rb'
+  hosted_by_ja: 'asakusa.rb'
+  name_en: 'Asakusa Cruising 2011'
+  name_ja: 'Asakusa Cruising 2011'
+  dtstart: '2011-07-12 10:00'
+  dtend: '2011-07-12 19:00'
+  url: "http://qwik.jp/asakusarb/hack113.html"
+  location: "Taito-ku, Asakusa"
+  pub_date: '2011-06-16'
+
+rubyhackingnight_ja:
+  hosted_by_en: 'asakusa.rb'
+  hosted_by_ja: 'asakusa.rb'
+  name_en: 'Ruby Hacking Night'
+  name_ja: 'Ruby Hacking Night'
+  dtstart: '2011-07-19 19:00'
+  dtend: '2011-07-19 22:00'
+  url: "http://qwik.jp/asakusarb/hack114.html"
+  location: "Taito-ku, Asakusa"
+  pub_date: '2011-06-16'
+
+rubyhackingnight_en:
+  hosted_by_en: 'asakusa.rb'
+  hosted_by_ja: 'asakusa.rb'
+  name_en: 'Ruby Hacking Night'
+  name_ja: 'Ruby Hacking Night'
+  dtstart: '2011-07-19 19:00'
+  dtend: '2011-07-19 22:00'
+  url: "http://qwik.jp/asakusarb/hack114.html"
+  location: "Taito-ku, Asakusa"
+  pub_date: '2011-06-16'
