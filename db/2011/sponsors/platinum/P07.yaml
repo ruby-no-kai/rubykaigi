@@ -1,9 +1,12 @@
 ---
-wanted: true
 name:
-  en: ""
-  ja: ""
+  en: "salesforce.com, inc."
+  ja: "株式会社セールスフォース・ドットコム"
 url:
+  en: "http://www.salesforce.com/jp/"
+  ja: "http://www.salesforce.com/jp/"
 pr:
-  en: ""
-  ja: ""
+  en: |-
+    Salesforce.com is cloud services provider, recently merged Heroku which is advanced and productive PaaS for Ruby and Node.js. We support Ruby in enterprise and activities of Mr. Matz.To improve it, we plan to release a cloud database named "<a href="http://database.com" target="_blank">Database.com</a>" in this year. It has Social functionality and modern authentication like OAuth. SOAP and REST also work to access it. Please try it and fun!
+  ja: |-
+    セールスフォース・ドットコムはRuby及びNode.jsのPaaS環境である「Heroku」を子会社に持つクラウドサービスプロバイダです。Herokuはその先進的なアーキテクチャや開発生産性の高さより、多くの方々にご評価を頂いております。私たちはHerokuを通してエンタープライズ領域におけるRubyの活用を推進し、Matz氏及びRubyコミュニティの活動を支援していきます。また本年度中に「<a href="http://database.com" target="_blank">Database.com</a>」と呼ぶソーシャル機能や認証をビルドインしたエンタープライズ向けクラウドデータベースをリリースします。<a href="http://database.com" target="_blank">Database.com</a>へはSOAPやRESTといったオープンなAPIで接続するため、Rubyを初めとするあらゆる言語から利用が可能です。どちらも無償で利用可能ですので、ぜひご活用下さい。
