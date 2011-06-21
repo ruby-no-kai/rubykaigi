@@ -217,3 +217,14 @@ rspec_sapporo_08:
   url: "http://qwik.jp/RubySapporo/The_RSpec_Book_Reading_Sapporo_08.html"
   location: '粋 Laboratory (Sapporo, Japan) [<a href="http://maps.google.co.jp/maps?q=%E7%B2%8B+Laboratory&ie=UTF8&hl=ja&brcurrent=3,0x5f0b299b45607ae1:0x850628b2828d8342,0&ll=43.058337,141.349883&spn=0.001521,0.001912&z=19">Map</a>]'
   pub_date: '2011-06-17'
+
+amagasakirb:
+  hosted_by_en: 'amagasaki.rb'
+  hosted_by_ja: 'Ruby勉強会＠尼崎'
+  name_en: 'Coders at Work Reading #1'
+  name_ja: 'Coders at Work 読書会 #1'
+  dtstart: '2011-07-02 13:00'
+  dtend: '2011-07-02 17:00'
+  url: "http://www.cuzic.com/coders-at-work"
+  location: 'JR尼崎駅 徒歩２分　小田公民館 [<a href="http://maps.google.co.jp/maps/place?q=%E5%B0%8F%E7%94%B0%E5%85%AC%E6%B0%91%E9%A4%A8&ie=UTF8&cid=1117781217423606293">Map</a>]'
+  pub_date: '2011-06-17'
