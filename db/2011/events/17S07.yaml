@@ -2,22 +2,23 @@
 presenters:
   - name: 
       en: Thomas E Enebo
-      ja: 
+      ja: "トーマス・E・エネボ"
     affiliation: 
       en: jruby.org / Engine Yard
       ja: 
     bio: 
       en: Thomas Enebo has been a practitioner of Java for over a decade and he is the co-lead of the JRuby project. Thomas has also been happily using Ruby since 2001. In addition to working on JRuby, Tom is interested in improving the state of alternative languages on the Java Virtual Machine. Tom is employed working on JRuby full time at Engine Yard.
-      ja:
+      ja: "トーマス・エネボーは、10年以上Javaをやっている熟練Javaエンジニアで、JRubyプロジェクトのリーダーの一人です。また、2001から楽しくRubyを使っています。JRubyの仕事に加えて、JVM上で動くJava以外の言語の状況を進展させることに関心があります。現在はEngine Yardに勤めており、フルタイムでJRubyの仕事をしています。"
   - name:
       en: Koichiroo Ohba
       ja: 大場光一郎
     affiliation:
-      en:
-      ja:
+      en: "JRuby User Group Japan"
+      ja: "日本JRubyユーザー会"
     bio:
       en: "He is developing a cloud platform service with JRuby for his company. A member of JRuby user meetup. He was the organizer of JRubyKaigi 2010 and is a staff of JRubyKaigi 2011."
       ja: "JRubyを使ってクラウドプラットフォームを開発している。日本JRubyユーザー会でJRubyKaigi 2010実行委員長でJRubyKaigi 2011のスタッフ。"
+    gravatar: 1ce18b10bd8f911566c5577042b6a44c
 
 title: 
   en: "Java in Ruby: Scripting Java in JRuby"
@@ -34,5 +35,16 @@ abstract:
         * Give style hints to make Java APIs fit better into the Ruby way
     
     By the end of this talk you should be able to effectively consume Java libraries in Ruby in a way that is satisfying and useful.
-  ja: 
-language: English
+  ja: |-
+    JRubyの主なメリットは、Javaクラスをインポートして、それをPORO(Plain Old Ruby Object)のように使えることです。
+    これで、Javaがひとときのようにまたまた楽しくなります。
+    Javaのレガシーコードを使って、Rubyコードに素敵な感じで入れられるAPIを作りあげることができます。既存のRubyライブラリに不足している機能を埋めるために新しいJavaライブラリや実績のある堅固なJavaライブラリにアクセスすることができるのです。
+    
+    このセッションでは次のようなことを話します:
+    
+      * Rubyコードの中からJavaクラスを使うための基本
+      * RubyのブロックやクラスをつかってJavaのインターフェースを実装する方法
+      * 注意すべき点
+      * RubyにマッチするJava APIを設計するヒント
+    このセッションを聞いた人が、RubyからJavaライブラリを上手に便利に活用できるようになることを意図しています。
+language: "English / Japanese"
