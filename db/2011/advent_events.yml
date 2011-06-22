@@ -228,3 +228,14 @@ amagasakirb:
   url: "http://www.cuzic.com/coders-at-work"
   location: 'JR尼崎駅 徒歩２分　小田公民館 [<a href="http://maps.google.co.jp/maps/place?q=%E5%B0%8F%E7%94%B0%E5%85%AC%E6%B0%91%E9%A4%A8&ie=UTF8&cid=1117781217423606293">Map</a>]'
   pub_date: '2011-06-17'
+
+herokuja_meetup_01:
+  hosted_by_en: 'Heroku-ja'
+  hosted_by_ja: 'Heroku-ja'
+  name_en: 'Heroku-ja Meetup #1'
+  name_ja: 'Heroku-ja Meetup #1'
+  dtstart: '2011-07-07 19:00'
+  dtend: '2011-07-07 21:30'
+  url: "http://atnd.org/events/17223"
+  location: "リクルート メディアテクノロジーラボ MTL Cafe"
+  pub_date: '2011-06-22'
