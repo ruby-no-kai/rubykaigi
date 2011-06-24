@@ -239,3 +239,14 @@ herokuja_meetup_01:
   url: "http://atnd.org/events/17223"
   location: "リクルート メディアテクノロジーラボ MTL Cafe"
   pub_date: '2011-06-22'
+
+photo_exhibition_rubykaigi:
+  hosted_by_en: 'JUNKUDO Shoten Co.,Ltd　Ikebukuro Main Store'
+  hosted_by_ja: 'ジュンク堂書店　池袋本店'
+  name_en: 'Photo Exhibition: RubyKaigi2006-2010'
+  name_ja: 'RubyKaigi2006-2010 写真展'
+  dtstart: '2011-07-02 10:00'
+  dtend: '2011-07-22 23:00'
+  url: 'http://www.junkudo.co.jp/tenpo/shop-ikebukuro.html#event'
+  location: 'ジュンク堂書店　池袋本店 6F [<a href="http://www.junkudo.co.jp/tenpo/shop-ikebukuro.html">Map</a>]'
+  pub_date: '2011-06-24'
