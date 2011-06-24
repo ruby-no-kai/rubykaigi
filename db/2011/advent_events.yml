@@ -239,3 +239,14 @@ herokuja_meetup_01:
   url: "http://atnd.org/events/17223"
   location: "リクルート メディアテクノロジーラボ MTL Cafe"
   pub_date: '2011-06-22'
+
+tkbb_rubykaigi:
+  hosted_by_en: 'Tokyo Bouldering Bu (#tkbb)'
+  hosted_by_ja: '東京ボルダリング部 (#tkbb)'
+  name_en: 'Tokyo Bouldering RubyKaigi'
+  name_ja: '東京ボルダリングRuby会議'
+  dtstart: '2011-07-10 19:00'
+  dtend: '2011-07-10 21:00'
+  url: 'http://atnd.org/events/17309'
+  location: 'Rhino and Bird [<a href="http://www.rhino-bird.com/">URL</a>]'
+  pub_date: '2011-06-24'
