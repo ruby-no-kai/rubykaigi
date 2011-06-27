@@ -261,3 +261,14 @@ tkbb_rubykaigi:
   url: 'http://atnd.org/events/17309'
   location: 'Rhino and Bird [<a href="http://www.rhino-bird.com/">URL</a>]'
   pub_date: '2011-06-24'
+
+kintsuba_sweets:
+  hosted_by_en: 'Kintsuba Sweets (#kintsuba)'
+  hosted_by_ja: 'きんつばスイーツの会 (#kintsuba)'
+  name_en: 'Kintsuba Sweets'
+  name_ja: 'きんつばスイーツの会'
+  dtstart: '2011-07-02 13:30'
+  dtend: '2011-07-02 17:30'
+  url: 'https://gist.github.com/1043321'
+  location: 'Seika-cho, Kyoto, JAPAN'
+  pub_date: '2011-06-27'
