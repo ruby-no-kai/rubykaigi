@@ -4,14 +4,14 @@ presenters:
       en: FUKUI Osamu
       ja: "福井修"
     affiliation: 
-      en: iRubySystems co.LTD.
+      en: iRubySystems co.,LTD.
       ja: "株式会社iRubySystems"
     bio: 
       en: "#TODO"
       ja: "#TODO"
 title: 
   en: It is accounting (SOROBAN)！ that it is insufficient in Rubyist.
-  ja: "Rbyist に不足しているのは会計（そろばん）！"
+  ja: "Rubyist に不足しているのは会計（そろばん）！"
 abstract: 
   en: "#TODO"
   ja: "#TODO"
