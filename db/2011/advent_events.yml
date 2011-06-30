@@ -283,3 +283,14 @@ ruby_tokai:
   url: 'http://wiki.ruby-tokai.org/?%C2%E822%B2%F3%CA%D9%B6%AF%B2%F1'
   location: '株式会社ニューキャスト 名古屋本社 [<a href="http://maps.google.com/maps/ms?msid=212189921490393774253.00046a8dab003297e65de&msa=0&ll=35.169752,136.927848&spn=0.002863,0.004506">Google Map</a>]'
   pub_date: '2011-06-28'
+
+unagi_rubykaigi:
+  hosted_by_en: 'Unagi RubyKaigi 2011 Team (#unagirb)'
+  hosted_by_ja: 'うなぎRubyKaigi会議2011実行委員会 (#unagirb)'
+  name_en: 'Unagi RubyKaigi 2011'
+  name_ja: 'うなぎRuby会議2011'
+  dtstart: '2011-07-10 11:00'
+  dtend: '2011-07-10 15:00'
+  url: 'http://twitter.com/koichiroo/status/86410248239325184'
+  location: 'Meguro Station(Tokyo, Japan)'
+  pub_date: '2011-06-30'
