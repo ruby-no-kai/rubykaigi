@@ -294,3 +294,14 @@ rails3recipebook_talks_junkudo:
   url: 'http://www.junkudo.co.jp/tenpo/evtalk.html#20110721ikebukuro'
   location: 'ジュンク堂書店　池袋本店4F喫茶'
   pub_date: '2011-07-01'
+
+matsuerubykaigi03:
+  hosted_by_en: 'MatsueRubyKaigi03 Team'
+  hosted_by_ja: '松江Ruby会議03実行委員会'
+  name_en: 'MatsueRubyKaigi03'
+  name_ja: '松江Ruby会議03'
+  dtstart: '2011-07-03 13:00'
+  dtend: '2011-07-03 18:00'
+  url: "http://regional.rubykaigi.org/matsue03"
+  location: "松江テルサ 4F 大会議室 (島根県松江市朝日町478番地18)"
+  pub_date: '2011-07-03'
