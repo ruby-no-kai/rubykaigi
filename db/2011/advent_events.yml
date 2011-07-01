@@ -1,3 +1,14 @@
+to_ruby55th:
+  hosted_by_en: 'toRuby'
+  hosted_by_ja: 'toRuby'
+  name_en: 'toRuby 55th'
+  name_ja: 'toRuby 55th (RubyKaigi2011予習の会)'
+  dtstart: '2011-07-06 18:30'
+  dtend: '2011-07-06 21:30'
+  url: "http://pub.cozmixng.org/~the-rwiki/rw-cgi.rb?cmd=view;name=toRuby"
+  location: "Nishinasuno community center (Tochigi, Japan)"
+  pub_date: '2011-07-01'
+
 to_ruby:
   hosted_by_en: 'toRuby'
   hosted_by_ja: 'toRuby'
