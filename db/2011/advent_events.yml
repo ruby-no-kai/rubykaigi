@@ -283,3 +283,14 @@ ruby_tokai:
   url: 'http://wiki.ruby-tokai.org/?%C2%E822%B2%F3%CA%D9%B6%AF%B2%F1'
   location: '株式会社ニューキャスト 名古屋本社 [<a href="http://maps.google.com/maps/ms?msid=212189921490393774253.00046a8dab003297e65de&msa=0&ll=35.169752,136.927848&spn=0.002863,0.004506">Google Map</a>]'
   pub_date: '2011-06-28'
+
+rails3recipebook_talks_junkudo:
+  hosted_by_en: 'Junkudo Ikebukuro (@junkudo_ike_pc)'
+  hosted_by_ja: 'ジュンク堂書店池袋本店 (@junkudo_ike_pc)'
+  name_en: 'Rails 3 Recipe Book Talk Session'
+  name_ja: '『Rails3レシピブック』刊行記念トークセッション「最新のRuby on Railsの魅力を語る～3.0、3.1、3.2、そして4.0へ～」'
+  dtstart: '2011-07-21 19:30'
+  dtend: '2011-07-21 21:00'
+  url: 'http://www.junkudo.co.jp/tenpo/evtalk.html#20110721ikebukuro'
+  location: 'ジュンク堂書店　池袋本店4F喫茶'
+  pub_date: '2011-07-01'
