@@ -5,9 +5,14 @@ presenters:
     affiliation: 
       en: Songkick.com
     bio: 
-      en: "#TODO"
+      en: "Joseph Wilk is a senior developer at Songkick.com and a member of the core development team for Cucumber. He has been developing for the web for 11 years in both big and small companies and as an entrepreneur. After stints working with Java and Python he finally found Ruby. Since then he has become a regular speaker at technology conferences around the world. He suffers from test obsession and has given up hope of any treatment. He can be found on Twitter as @josephwilk and blogs at http://blog.josephwilk.net "
+    gravatar: 947a39212bd81f6f17d3ff1291432c5d
 title: 
   en: The Limited Red Society
 abstract: 
-  en: "#TODO"
+  en: "During an hour of programming what do you learn about your performance? How did that last refactoring go? How does that hour compare to the previous hour? How about against last week or last month? How are your habits as a programmer improving? How does your refactoring pattern differ from a masters?
+
+Professional Tennis players learn from detailed statistics about how they performed in a game and use this information to become better players.
+
+Why don't we do the same in Programming? I want to demonstrate how we can, especially how we as individual programmers can help limit the time we spend in the red (failing tests). How long we spend in the red and how often can reflect on how we are working as programmers."
 language: English
