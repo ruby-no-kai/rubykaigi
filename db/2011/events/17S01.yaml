@@ -2,14 +2,15 @@
 presenters:
   - name: 
       en: Elise Huard
-      ja: 
+      ja:
     affiliation: 
-      en: Jabberwocky
-      ja: 
+      en: Forward
+      ja: Forward
     bio: 
-      en: "In the last 11 years, Elise’s been rolling through jobs in C, C++, Java, a master in AI, before falling in love with Ruby and going freelance. Her experience in software development have helped her get a firm understanding on what works, what doesn’t, and what will make you cry bloody tears on nights before deadlines.\n\n\
+      en: "In the last 11 years, Elise’s been rolling through jobs in C, C++, Java, a master in AI, before falling in love with Ruby and going freelance. Her experience in software development have helped her get a firm understanding on what works, what doesn’t, and what will make you cry tears on nights before deadlines.\n\n\
         She’s a jack of all trades, loves reading, tinkering, food, travel, learning, and people out of the ordinary."
       ja: 
+    gravatar: c89aa4bb4813720b76ac499d98d850f2
 title: 
   en: Actors on stage
   ja: 
