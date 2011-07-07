@@ -1,10 +1,11 @@
 presenters:
   - name:
       en: Fabio Akita
+      ja: "秋田ファビオ誠"
     affiliation:
-      en:
+      en: Gonow Tecnologia
     bio:
-      en: http://akitaonrails.com/
+      en: "I currently work for Gonow Tecnologia, at São Paulo, Brazil. We are a software house doing custom projects for clients. We have more than 20 people doing Ruby/Rails, iOS and Android development. I've been evangelizing Ruby and Rails in Brazil since around 2006. I released the first original Ruby on Rails written in Brazilian Portuguese in 2007. I organized the first Rails Summit Latin America in 2008, and have been repeating the conference in Brazil ever since. In 2010 we renamed the conference to RubyConf Brazil. I am trying to always evangelize software development best practices, but above all, trying to explain how to be better professionals overall. I also helped implement the first Ruby on Rails support in a shared hosting web environment at Locaweb, the largest hosting service in Latin America. I also worked as Brazil Rails Practice Manager at Surgeworks Inc, building and supporting a small offshore outsourcing group in Brazil to serve US clients. Prior to the Ruby community, I've been involved in the corporate SAP/Java market for a few years. And even before I've been in the first internet bubble. Overall, I've been developing software and delivering projects since the early 90's. You can find me at Twitter (@akitaonrails) or read my blog (http://www.akitaonrails.com), though most of my content is in Brazilian Portuguese."
     gravatar: 98c2fb4c31fae25fe0b618f1c994c1f3
 title:
   en: (To Be Announced)
