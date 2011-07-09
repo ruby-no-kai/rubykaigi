@@ -7,12 +7,13 @@ presenters:
       en: DWANGO Co., Ltd / tobe-tobe
       ja: "株式会社ドワンゴ / 東京Basic Technology勉強会"
     bio: 
-      en: "#TODO"
-      ja: "#TODO"
+      en: "a programmer / a drunk / a fond parent"
+      ja: "プログラマ / へべれけ / 親バカ"
+    gravatar: 7e7733a4e42faad9f8072afd85134b48
 title: 
   en: "pebbles: A namespace for joke gems"
   ja: "pebbles: rubygemsにおけるジョークモジュールの名前空間について"
 abstract: 
-  en: "#TODO"
-  ja: "#TODO"
+  en: "Just like the Acme namespace in Perl's CPAN, I propose that we use the namespace ¥"pebbles¥" for joke gems so that we don't pollute the RubyGems namespace."
+  ja: "ジョークで作ったrubygemsで名前空間を汚染しないために、Perlにおける「Acme」のようなジョークモジュール専用の名前空間(命名規約)として「pebbles」を提案します。"
 language: Japanese
