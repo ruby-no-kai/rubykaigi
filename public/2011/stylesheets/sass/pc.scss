@@ -421,6 +421,17 @@ h1.events_header {
     h2 {
       font-size: 110%; } } }
 
+/*--- live ----------------------------------------------*/
+
+#ustream {
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.3);
+  float: left; }
+
+#live_information {
+  width: 460px;
+  float: right; }
+
 /*--- coming_soon ----------------------------------------------*/
 
 #coming_soon h1 {
