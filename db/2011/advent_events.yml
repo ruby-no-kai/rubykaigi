@@ -316,3 +316,14 @@ unagi_rubykaigi:
   url: 'http://twitter.com/koichiroo/status/86410248239325184'
   location: 'Meguro Station(Tokyo, Japan)'
   pub_date: '2011-06-30'
+
+railstokyo64:
+  hosted_by_en: 'Rails Meeting Tokyo (#railstokyo)'
+  hosted_by_ja: 'Rails勉強会@東京 (#railstokyo)'
+  name_en: 'Rails Meeting Tokyo #64'
+  name_ja: 'Rails勉強会@東京 第64回'
+  dtstart: '2011-07-18 12:00'
+  dtend: '2011-07-18 13:30'
+  url: 'http://wiki.fdiary.net/rails/?RailsMeetingTokyo-0064'
+  location: 'Nerima Culture Center (Tokyo, Japan)'
+  pub_date: '2011-07-12'
