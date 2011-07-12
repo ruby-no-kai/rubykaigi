@@ -84,10 +84,11 @@
       gravatar: f37b9a968b2326062190677906a93080
     - name:
         en: Leonard Chin
-        ja: レオ Leonard Chin
+        ja: レオ
       affiliation:
-        en: Nihon Ruby-no-Kai
-        ja: 日本Rubyの会
+        en: Nihon Ruby-no-Kai || Dwango
+        ja: 日本Rubyの会 || 株式会社ドワンゴ
+      gravatar: 70762059db0218c6f0ff48042ca0756a
     - name:
         en: Yoji SHIDARA
         ja: しだらようじ
