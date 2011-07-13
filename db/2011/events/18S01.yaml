@@ -4,11 +4,11 @@ presenters:
       en: ANDO Yasushi
       ja: "あんどうやすし"
     affiliation:
-      en: Seesaa Inc.
-      ja: "シーサー株式会社"
+      en: "mixi Inc."
+      ja: "ミクシィ株式会社"
     bio:
-      en: ANDO Yasushi is a web developer at Seesaa Inc.
-      ja: "シーサー株式会社で最近はiPhoneアプリやAndroidアプリを開発してます。"
+      en: "ANDO Yasushi is a perl hater working for a campany mainly using perl."
+      ja: "Perlの会社でPerlに触れずにどこまで行けるかチキンレース真っ最中。"
     gravatar: 9c35bab0739fc8762adf30de13d8c053
 title:
   en: Parse.y Famtour
