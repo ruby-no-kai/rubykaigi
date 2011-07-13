@@ -327,3 +327,14 @@ railstokyo64:
   url: 'http://wiki.fdiary.net/rails/?RailsMeetingTokyo-0064'
   location: 'Nerima Culture Center (Tokyo, Japan)'
   pub_date: '2011-07-12'
+
+agileuxlive:
+  hosted_by_en: 'AgileUCDja'
+  hosted_by_ja: 'アジャイルUCD研究会'
+  name_en: 'Agile UX Live! - Agile UX with Ruby&Cloud -'
+  name_ja: 'Agile UX 公開実演―Agile UX + Ruby + Cloud で3日間で役立つサイトを作る'
+  dtstart: '2011-07-16 13:30'
+  dtend: '2011-07-18 15:40'
+  url: 'https://sites.google.com/site/agileucdja/'
+  location: 'Nerima Culture Center (Tokyo, Japan)'
+  pub_date: '2011-07-13'
