@@ -4,7 +4,7 @@
     != yield :meta_top
     %meta{ "http-equiv" => "Content-Type", :content => "text/html; charset=utf-8" }
     != csrf_meta_tag
-    %title= [@title, "#{t(:rubykaigi2011)}(#{t(:rubykaigi2011_dates)})"].compact.join(' | ') 
+    %title= [@title, "#{t(:rubykaigi2011)}(#{t(:rubykaigi2011_dates)})"].compact.join(' | ')
     %link{:href => "/2011/stylesheets/jquery.mobile-1.0a3.min.css", :media => "screen", :rel => "stylesheet", :type => "text/css"}
     %link{ :rel => "alternate", :type => "application/rss+xml", :title => "RubyKaigi2011(#{t(current_locale)})", :href => rubykaigi_org_feed_url(current_locale) }
     %script{:src => "/2011/javascripts/jquery-1.5.1.min.js", :type => "text/javascript"}
@@ -53,7 +53,7 @@
                 #{t(:rubykaigi_nikki)}
             %li
               %a{:href => "/tickets"}
-                #{t(:show_tickets)} 
+                #{t(:show_tickets)}
             %li
               %a{:href => "/2011/#{current_locale}/schedule/phone_index"}
                 #{t(:schedule)}
