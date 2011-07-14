@@ -41,9 +41,7 @@
               %li!= link_to 'Sign Out', signout_path, :method => :delete
         - else
           %ul
-            %li
-              %a{:href => "phone_coming_soon"}
-                #{t(:signin)}
+            %li!= link_to "#{t(:signin)}", signin_path
         %a{:name => "top"}
     != yield
     %footer
