@@ -52,15 +52,9 @@
         %li Recorded videos will be published later (To Be Announced).
         %li This program is brought you to by KaigiFreaks.
       %p.linkMark
-        #{t(:hall_main)}:
-        %a{:href => "/2011/#{current_locale}/coming_soon"} Ustream
-        |
-        %a{:href => "/2011/#{current_locale}/coming_soon"} IRC
+        %a{:href => "/2011/#{current_locale}/live1"}= t(:hall_main)
       %p.linkMark
-        #{t(:hall_sub)}:
-        %a{:href => "/2011/#{current_locale}/coming_soon"} Ustream
-        |
-        %a{:href => "/2011/#{current_locale}/coming_soon"} IRC
+        %a{:href => "/2011/#{current_locale}/live2"}= t(:hall_sub)
     != render :partial => 'shared/2011/back_to_top'
     %article#access
       %h2
