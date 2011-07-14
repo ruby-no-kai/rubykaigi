@@ -5,17 +5,4 @@
   %section#ustream
     :plain
       <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="480" height="296" id="utv354578"><param name="flashvars" value="autoplay=false&amp;brand=embed&amp;cid=975693&amp;locale=ja_JP&amp;v3=1"/><param name="allowfullscreen" value="true"/><param name="allowscriptaccess" value="always"/><param name="movie" value="http://www.ustream.tv/flash/viewer.swf"/><embed flashvars="autoplay=false&amp;brand=embed&amp;cid=975693&amp;locale=ja_JP&amp;v3=1" width="480" height="296" allowfullscreen="true" allowscriptaccess="always" id="utv354578" name="utv_n_423363" src="http://www.ustream.tv/flash/viewer.swf" type="application/x-shockwave-flash" /></object>
-  %section#live_information
-    %article
-      %h2 IRC
-      %ul.listMark
-        %li Server : irc.rubykaigi.org
-        %li Port : 6667 (6660..6669)
-        %li Character Code : UTF-8
-        %li Channels : #kaigi1, #kaigi1-m17n
-    %article
-      %h2 Twitter
-      %ul.listMark
-        %li
-          Tweets with hashtag
-          %a{ :href => "http://search.twitter.com/q=#rubykaigi" } #rubykaigi
+  = render :partial => 'pages/2011/live_information', :locals => {:n => 1}
