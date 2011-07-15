@@ -10,8 +10,21 @@ presenters:
       en: |-
         Rubyist living in London since 2004 (though did not know about Ruby when I was in Japan. Sorry..) 
         ex-DBA(Sybase). Gave a talk "Building real time web" at RubyKaigi 2010 . Working under translation team of http://sinsai.info , earthquake information mapping site.  Currently translating dRuby book into English (due to be published under pragpub)
-      ja: "井上真(New Bamboo) \n\
-        2004年からロンドンに在住中の逆輸入Rubyist（日本にいる時はRubyのこと知りませんでした。すみません）。元DBA(Sybase)。2010のRubyKaigiでは「リアルタイムウェブができるまで」というトピックで発表。http://sinsai.info という震災情報サイトでは翻訳班として活動中。赤い王子様の本を英訳中。「Railsで目指せ、情熱エンジニア」というタイトルで@ITでも執筆中"
+        ja: "井上真(New Bamboo) \n\
+
+          2004年からロンドンに在住中の逆輸入Rubyist（日本にいる時はRubyのこと知りませんでした。すみません）。元DBA(Sybase)。2010のRubyKaigiでは「リアルタイムウェブができるまで」というトピックで発表。http://sinsai.info
+  - name: 
+      en: Hal Seki
+      ja: "関治之"
+    affiliation: 
+      en: Cirius Technologies inc, Geo Republic Japan, OSMFJ, sinsai.info
+      ja: "シリウステクノロジーズ, Geo Republic Japan, オープンストリートマップ・ファウンデーション・ジャパン, sinsai.info"
+    bio: 
+      en: |-
+        CEO of Georepublic Japan, a company providing gis-development service using open source software. He have been working as a geo developer over five years. He has been organizing one of biggest free conference for Geoweb services in Japan over three years.
+    　 ja: ""関治之\n\
+
+Georepublic Japan CEO. オープンソースソフトウェアを使ったGIS サービスの開発。Geo開発者として５年以上の経験あり。過去３年の間、最大規模のGeoWebサービスを主催
 title: 
   en: The Great Eastern Japan Earthquake and what you can do as a Rubyist ? 
   ja: "3/11 そしてRubyistとしてできること"
