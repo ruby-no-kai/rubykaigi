@@ -11,8 +11,21 @@
           != link_to(ticket_label, ticket_path(ticket))
 
     %h2 Ticket Instruction for RubyKaigi 2011
-    %p
-      (Coming Soon...)
+    %ul.listMark
+      - if params[:locale] == 'ja'
+        %li
+          %a{:href => "http://rubykaigi.tdiary.net/20110703.html#p01", :target => '_blank'}
+            日本Ruby会議2011本編受付方法について
+        %li
+          %a{:href => "http://rubykaigi.tdiary.net/20110713.html#p02", :target => '_blank'}
+            懇親会受付のお知らせ
+      - else
+        %li
+          %a{:href => "http://rubykaigi.tdiary.net/20110713.html#p01", :target => "_blank"}
+            RubyKaigi2011 Admission Instruction
+        %li
+          %a{:href => "http://rubykaigi.tdiary.net/20110714.html#p01", :target => "_blank"}
+            The official party registration information
 
     %h2 Ticket Instruction for RubyKaigi 2010
     %ul.listMark
