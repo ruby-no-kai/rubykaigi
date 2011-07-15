@@ -6,12 +6,12 @@ presenters:
     affiliation: 
       en: Asakusa.rb
     bio: 
-      en: "#TODO"
-      ja: "#TODO"
+      en: "A hobby programmer."
+      ja: "趣味グラマー"
 title: 
   en: C die hard.
   ja: "C、イ㌔。"
 abstract: 
-  en: "#TODO"
-  ja: "#TODO"
+  en: "C will not die. It will revive."
+  ja: "Cは滅びんよ、何度でも甦るさ。"
 language: Japanese
