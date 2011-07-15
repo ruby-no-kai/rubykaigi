@@ -1,39 +1,39 @@
---- 
+---
 presenters:
-  - name: 
+  - name:
       en: Makoto Inoue
       ja: "井上真"
-    affiliation: 
+    affiliation:
       en: New Bamboo
       ja: New Bamboo
-    bio: 
+    bio:
       en: |-
-        Rubyist living in London since 2004 (though did not know about Ruby when I was in Japan. Sorry..) 
+        Rubyist living in London since 2004 (though did not know about Ruby when I was in Japan. Sorry..)
         ex-DBA(Sybase). Gave a talk "Building real time web" at RubyKaigi 2010 . Working under translation team of http://sinsai.info , earthquake information mapping site.  Currently translating dRuby book into English (due to be published under pragpub)
-        ja: "井上真(New Bamboo) \n\
-
+        ja: |-
+          井上真(New Bamboo)
           2004年からロンドンに在住中の逆輸入Rubyist（日本にいる時はRubyのこと知りませんでした。すみません）。元DBA(Sybase)。2010のRubyKaigiでは「リアルタイムウェブができるまで」というトピックで発表。http://sinsai.info
-  - name: 
+  - name:
       en: Hal Seki
       ja: "関治之"
-    affiliation: 
+    affiliation:
       en: Cirius Technologies inc, Geo Republic Japan, OSMFJ, sinsai.info
       ja: "シリウステクノロジーズ, Geo Republic Japan, オープンストリートマップ・ファウンデーション・ジャパン, sinsai.info"
-    bio: 
+    bio:
       en: |-
         CEO of Georepublic Japan, a company providing gis-development service using open source software. He have been working as a geo developer over five years. He has been organizing one of biggest free conference for Geoweb services in Japan over three years.
-    　 ja: ""関治之\n\
-
-Georepublic Japan CEO. オープンソースソフトウェアを使ったGIS サービスの開発。Geo開発者として５年以上の経験あり。過去３年の間、最大規模のGeoWebサービスを主催
-title: 
-  en: The Great Eastern Japan Earthquake and what you can do as a Rubyist ? 
+      ja: |-
+        関治之
+        Georepublic Japan CEO. オープンソースソフトウェアを使ったGIS サービスの開発。Geo開発者として５年以上の経験あり。過去３年の間、最大規模のGeoWebサービスを主催
+title:
+  en: 'The Great Eastern Japan Earthquake and what you can do as a Rubyist ?'
   ja: "3/11 そしてRubyistとしてできること"
-abstract: 
+abstract:
   en: The Great Eastern Japan Earthquake on March 11th caused devastating impact across Japan. However, there were numerous efforts amongst Japanese hackers to help the disaster hit areas. Throughout this talk, I will explain what kind of activities occurred right after the earthquake, and will discuss what we can do as Rubyists to help the people affected by the disaster. The talk will be done in English.
-  ja: "2011年３月11日におきた東日本大震災と津波によって東日本の各地において過去に例がないほどの多大な被害をうけましたが、それと同時に\n\
-    インターネットやソーシャルメディアを通じて様々な活動がボランティアの手によっておこなわれてきましたし、現在もおこなわれています。\n\
-    このトークでは地震発生直後にどのような活動が行われたか、現在どのような活動が行われているか、そして我々Rubyistがどのような形で\n\
-    関わっていく事ができるかについて一緒に考えていく場としたいと思います。\n
+  ja: |-
+    2011年３月11日におきた東日本大震災と津波によって東日本の各地において過去に例がないほどの多大な被害をうけましたが、それと同時に
+    インターネットやソーシャルメディアを通じて様々な活動がボランティアの手によっておこなわれてきましたし、現在もおこなわれています。
+    このトークでは地震発生直後にどのような活動が行われたか、現在どのような活動が行われているか、そして我々Rubyistがどのような形で
+    関わっていく事ができるかについて一緒に考えていく場としたいと思います。
     海外からお越しのRubyistのみなさんに特に聞いていただきたいので英語での講演を予定しています。
-    "
 language: English
