@@ -50,10 +50,11 @@
                 %p.affiliation= RubyKaigi2011::Localizer.value_for_locale(I18n.locale, affiliation)
               %p
                 = RubyKaigi2011::Localizer.value_for_locale(I18n.locale, presenter["bio"])
-    %h3.cboth
-      #{t(:presentation_material)}
-    - @event.vimeo_id.each do |vid|
-      #{vimeo_frame(vid)}
+    - if @event.vimeo_id.present?
+      %h3.cboth
+        #{t(:presentation_material)}
+      - @event.vimeo_id.each do |vid|
+        #{vimeo_frame(vid)}
 
     %p.cboth
       - if smartphone?
