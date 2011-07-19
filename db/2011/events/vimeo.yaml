@@ -1,0 +1,124 @@
+--- 
+16S04: 
+  :url: http://vimeo.com/26506938
+  :title: "[16S04] Lightweight Ruby (ja)"
+17S09: 
+  :url: http://vimeo.com/26538040
+  :title: "[17S09] Method Shelters : Another Way to Resolve Class Extension Conflicts (ja)"
+18S08: 
+  :url: http://vimeo.com/26585481
+  :title: "[18S08] Underlaying Technologies and Techniques behind O/R Mapper (ja)"
+17M04: 
+  :url: http://vimeo.com/26550795
+  :title: "[17M04] Road to the Ruby Master"
+16S05: 
+  :url: http://vimeo.com/26507119
+  :title: "[16S05] Parallel world of CRuby's GC (ja)"
+17S10: 
+  :url: http://vimeo.com/26538260
+  :title: "[17S10] CRuby lock design improvement and why it sucks (ja)"
+17M05: 
+  :url: http://vimeo.com/26551307
+  :title: "[17M05] How BDD style Unit Testing"
+16M01: 
+  :url: http://vimeo.com/26507951
+  :title: "[16M01] Ruby Ruined My Life. (en)"
+16S06: 
+  :url: http://vimeo.com/26507239
+  :title: "[16S06] Ruby Interpreters in the Parallel Worlds (ja)"
+17M06: 
+  :url: http://vimeo.com/26552370
+  :title: "[17M06] 5 years know-how of RSpec driven Rails app. development."
+17S01: 
+  :url: http://vimeo.com/26527508
+  :title: "[17S01] Ruby goes to Hollywood (en)"
+16M02: 
+  :url: http://vimeo.com/26508997
+  :title: "[16M02] Next version of Ruby 1.8 and 1.9 (ja)"
+17M07: 
+  :url: http://vimeo.com/26552699
+  :title: "[17M07] Efficient JavaScript integration testing with Ruby and V8 engine."
+17S02: 
+  :url: http://vimeo.com/26527636
+  :title: "[17S02] Drip: Persistent tuple space and stream. (ja)"
+18S01: 
+  :url: http://vimeo.com/26559563
+  :title: "[18S01] Parse.y Famtour (ja)"
+16M03: 
+  :url: http://vimeo.com/26509306
+  :title: "[16M03] Large-scale web service and operations with Ruby (ja)"
+17M08: 
+  :url: http://vimeo.com/26557190
+  :title: "[17M08] Net::HTTP and Async Programming"
+18S02: 
+  :url: http://vimeo.com/26559991
+  :title: "[18S02] Visual Glitch, using Ruby (ja)"
+17S03: 
+  :url: http://vimeo.com/26527737
+  :title: "[17S03] Writing Friendly Libraries (en)"
+16M04: 
+  :url: http://vimeo.com/26509659
+  :title: "[16M04] Shipping at the Speed of Life (en)"
+17M09: 
+  :url: http://vimeo.com/26559212
+  :title: "[17M09] The Gate"
+17S04: 
+  :url: http://vimeo.com/26527951
+  :title: "[17S04] Use rails_best_practices to refactor your rails codes (en)"
+16M05: 
+  :url: http://vimeo.com/26510145
+  :title: "[16M05] Toggleable Mocks and Testing Strategies in a Service Oriented Architecture (en)"
+17M10: 
+  :url: http://vimeo.com/26562213
+  :title: "[17M10] Lightning Talks 1"
+18S04: 
+  :url: http://vimeo.com/26560371
+  :title: "[18S04] The Great Eastern Japan Earthquake and what you can do as a Rubyist ? (en)"
+17S05: 
+  :url: http://vimeo.com/26536996
+  :title: "[17S05] Improvement of ThreadGroup class and its usage (ja)"
+17S06: 
+  :url: http://vimeo.com/26537238
+  :title: "[17S06] How to read JIS X 3017 (ja)"
+18S05: 
+  :url: http://vimeo.com/26583517
+  :title: "[18S05] Writing custom DataMapper Adapters (en)"
+16S01: 
+  :url: http://vimeo.com/26505174
+  :title: "[16S01] Ruby, that community and me. (ja)"
+16M07: 
+  :url: http://vimeo.com/26519360
+  :title: "[16M07] How libraries in Japan use Ruby - \"Next-L Enju\" and \"NDL Search\" (ja)"
+17M01: 
+  :url: http://vimeo.com/26539927
+  :title: "[17M01] How to make secure program"
+17S07: 
+  :url: http://vimeo.com/26537473
+  :title: "[17S07] Java in Ruby: Scripting Java in JRuby (en|ja)"
+16S02: 
+  :url: http://vimeo.com/26505273
+  :title: "[16S02] The Real-time Profiler for Ruby (ja)"
+18S06: 
+  :url: http://vimeo.com/26584318
+  :title: "[18S06] Personal Dilemma: How to work with Ruby in Brazil? (en)"
+17M02: 
+  :url: http://vimeo.com/26540910
+  :title: "[17M02] The best practice of building mobile website with jpmobile"
+16M08: 
+  :url: http://vimeo.com/26519661
+  :title: "[16M08] Critical mission system implemented in Ruby (ja)"
+18M01: 
+  :url: http://vimeo.com/26583234
+  :title: "[18M01] Ruby-no-kai Itself and Some Related Projects."
+17S08: 
+  :url: http://vimeo.com/26537809
+  :title: "[17S08] MacRuby on Rails (ja)"
+16S03: 
+  :url: http://vimeo.com/26505386
+  :title: "[16S03] Dynamic Component System and Memory Reduction of VM for Embedded Systems (ja)"
+18S07: 
+  :url: http://vimeo.com/26584855
+  :title: "[18S07] About New Version of DeepConnect for Distributed Object Environment (ja)"
+17M03: 
+  :url: http://vimeo.com/26541587
+  :title: "[17M03] Ruby on Rails development that doesn't hurt"

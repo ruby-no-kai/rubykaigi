@@ -16,3 +16,4 @@ abstract:
   en: "ThreadGroup class, which is one of the embedded classes of Ruby, is useful for managing sets of threads. Although a ThreadGroup object should have advantages over a simple list of threads, it hasn't had enough methods to do that. In this presentation, I'll introduce details and intentions of improving ThreadGroup with some usages."
   ja: "Rubyの組み込みクラスの一つであるThreadGroupは，thread集合を扱う際に有用なものである．threadを単純に集めたものを上回る活用が可能であるはずだが，従来は操作メソッドが十分に充実しているとは言えなかった．本発表では，ThreadGroup強化の内容と意図とを，用例を交えながら紹介する．"
 language: Japanese
+vimeo_id: 26536996

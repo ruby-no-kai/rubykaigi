@@ -28,6 +28,10 @@
         %h3
           #{t(:presentation_language)}
         %p= @event.languages.join(", ")
+      - if @event.vimeo_id.present?
+        %iframe{:frameborder => '0', :width => '400', :height => '300', :src => "http://player.vimeo.com/video/#{@event.vimeo_id}"}
+        %p
+          %a{:href => "http://vimeo.com/#{@event.vimeo_id}"}
 
       != render :partial => 'shared/2011/facebook'
       != render :partial => 'shared/2011/twitter'

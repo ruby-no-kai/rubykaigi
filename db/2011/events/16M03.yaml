@@ -17,3 +17,4 @@ abstract:
   en: A behind the scenes look at how Ruby is used at COOKPAD Inc. for large-scale development and operations
   ja: "大規模ウェブサービス『クックパッド』では Ruby を用いてどのように開発・運用されているのか、その裏側をお話しします。"
 language: Japanese
+vimeo_id: 26509306

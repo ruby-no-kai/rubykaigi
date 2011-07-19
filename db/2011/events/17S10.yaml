@@ -27,3 +27,4 @@ abstract:
     新しいハードウェアを買うと悲しい思いをすることがありうる。
     本発表では、CRubyのGVL(Global VM Lock)とMutex.lock メソッドの問題点、および改善案について解説する
 language: Japanese
+vimeo_id: 26538260

@@ -24,3 +24,4 @@ abstract:
     本発表では、O/R Mapperの基本的な仕組みと望ましいアーキテクチャについて説明します。\n\
     本発表を聞けば、ActiveRecordを含め既存のほとんどのO/R Mapperが、必ずしも理想的とはいえないことがわかるでしょう。"
 language: Japanese
+vimeo_id: 26585481
