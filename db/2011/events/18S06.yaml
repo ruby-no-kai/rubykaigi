@@ -14,4 +14,5 @@ abstract:
 
   In this talk I'd like to explain why I like Ruby and how it enabled us to grow a sustainable community and market in Brazil. As a short summary and spoiler for the talk: yes, there is now a very good and healthy local market for Ruby in Brazil, several small and big companies using Ruby, several consulting companies offering Ruby services, lots of great developers contributing back to the global community, big conferences such as our own RubyConf Brazil. So yes, it worked! And no, I didn't have to move out to the USA to work full time with Ruby!"
 language: English
-vimeo_id: 26584318
+vimeo_id:
+  - 26584318

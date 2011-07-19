@@ -16,4 +16,5 @@ abstract:
   en: "Modern large scale applications often benefit from being composed of multiple smaller applications.  This can provide many benefits, but it can often make testing each piece more complex. I will cover a technique we use at Engine Yard to easily test these pieces individually and as a piece of the whole. "
   ja: 
 language: English
-vimeo_id: 26510145
+vimeo_id:
+  - 26510145

@@ -26,4 +26,5 @@ abstract:
   en: This presentation will introduce you V8 JavaScript engine and Mike - the headless browser based on it. V8 is open source, high performance JavaScript engine written in C++, used i.a. by Google Chrome and Node.JS. V8 enables any C/C++ application to expose its own objects and functions to JavaScript code. Thanks to this we could build our own, efficient, headless browser for testing purposes. This presentation for sure will change your life by showing you how easy and fast can be integration testing thanks to V8 and Mike goodies.
   ja: 
 language: English
-vimeo_id: 26552699
+vimeo_id:
+  - 26552699

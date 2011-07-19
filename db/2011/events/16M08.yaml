@@ -27,4 +27,5 @@ abstract:
     Rubyで実装する中で、効果的だと感じた点、
     また直面した問題点を説明します。
 language: Japanese
-vimeo_id: 26519661
+vimeo_id:
+  - 26519661

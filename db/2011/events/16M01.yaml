@@ -28,4 +28,5 @@ abstract:
     for continued success.
   ja:
 language: "English"
-vimeo_id: 26507951
+vimeo_id:
+  - 26507951

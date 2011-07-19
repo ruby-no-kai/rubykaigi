@@ -17,4 +17,5 @@ abstract:
   en: JIS X 3017 is the Japanese national standard of the Ruby programming language.  This talk explains why the standard and Ruby itself are so complex.
   ja: "JIS X 3017はプログラミング言語Rubyの日本国内規格である。この講演では，この規格及びRuby自身がなぜかくも複雑であるかを説明する。"
 language: Japanese
-vimeo_id: 26537238
+vimeo_id:
+  - 26537238

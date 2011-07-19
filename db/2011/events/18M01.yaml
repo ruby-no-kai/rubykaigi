@@ -53,4 +53,5 @@ http://www.ruby-lang.org/ja/documentation/
 http://jp.rubyist.net/magazine/"
 
 language: Japanese
-vimeo_id: 26583234
+vimeo_id:
+  - 26583234

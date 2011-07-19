@@ -20,4 +20,5 @@ abstract:
     world, and Ruby interpreter for me.
   ja: "ちょっと違った世界には，こんな Ruby 処理系があったかもしれません．本発表では，そんなちょっと違った Ruby 処理系の可能性について紹介します．そして，自分としてはこんな世界がいいな， Ruby 処理系があるといいな，というような話をしたいと思います．"
 language: Japanese
-vimeo_id: 26507239
+vimeo_id:
+  - 26507239

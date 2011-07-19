@@ -20,4 +20,5 @@ abstract:
   en: Writing Friendly Libraries will cover how to write libraries that are easy to use, extend and maintain.  My talk will cover techniques such as using plugin systems for extensibility and adding optional features.  I will also cover testing strategies and other tools to ease maintenance of software.
   ja:
 language: English
-vimeo_id: 26527737
+vimeo_id:
+  - 26527737

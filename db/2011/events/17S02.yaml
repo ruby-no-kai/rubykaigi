@@ -20,4 +20,5 @@ abstract:
     本講演では永続版Rindaの反省と、その中から生まれた
     ストリーム指向同期機構 Drip を紹介します。
 language: Japanese
-vimeo_id: 26527636
+vimeo_id:
+  - 26527636

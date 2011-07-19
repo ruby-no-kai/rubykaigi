@@ -30,4 +30,5 @@ abstract:
     この発表では，新たなモジュールシステムである "Method Shelters" を提案し，
     既存のシステムとの差異を述べる．
 language: Japanese
-vimeo_id: 26538040
+vimeo_id:
+  - 26538040

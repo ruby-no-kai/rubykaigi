@@ -27,4 +27,5 @@ abstract:
     本発表ではMacRubyでRailsを動作させるために必要だった修正内容とともに、\n\
     その過程であらためて知ることになったcRubyのすばらしさを説明します。"
 language: Japanese
-vimeo_id: 26537809
+vimeo_id:
+  - 26537809

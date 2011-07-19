@@ -28,11 +28,7 @@
         %h3
           #{t(:presentation_language)}
         %p= @event.languages.join(", ")
-      - if @event.vimeo_id.present?
-        %iframe{:frameborder => '0', :width => '400', :height => '300', :src => "http://player.vimeo.com/video/#{@event.vimeo_id}"}
-        %p
-          %a{:href => "#{vimeo_url(@event)}", :target => '_blank'}
-            #{vimeo_url(@event)}
+
 
       != render :partial => 'shared/2011/facebook'
       != render :partial => 'shared/2011/twitter'
@@ -54,9 +50,11 @@
                 %p.affiliation= RubyKaigi2011::Localizer.value_for_locale(I18n.locale, affiliation)
               %p
                 = RubyKaigi2011::Localizer.value_for_locale(I18n.locale, presenter["bio"])
-    -#%h3.cboth
+    %h3.cboth
       #{t(:presentation_material)}
-    -#%p -
+    - @event.vimeo_id.each do |vid|
+      #{vimeo_frame(vid)}
+
     %p.cboth
       - if smartphone?
         %a{:href => "/2011/#{current_locale}/schedule/phone_index"}

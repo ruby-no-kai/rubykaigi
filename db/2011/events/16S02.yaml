@@ -16,4 +16,5 @@ abstract:
   en: We developed a real-time execution profiler for Ruby.This profiler is able to get information associating with context informationand only few overheads. In this presentation, we introduce our profiler, and explain the design and implementation.
   ja: "Ruby用のリアルタイム実行時間プロファイラを開発した。本プロファイラはコンテキスト情報を含めて取得でき、かつ低いオーバーヘッドで得ることができる。本プレゼンテーションではプロファイラの紹介とともにその実装について詳しく紹介する。"
 language: Japanese
-vimeo_id: 26505273
+vimeo_id:
+  - 26505273

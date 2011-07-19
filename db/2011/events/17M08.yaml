@@ -19,4 +19,5 @@ abstract:
 I will also talk about how nonblocking IO and network libraries can be used with a pure-Ruby reactor to enable scoped parallel IO in a single thread, and how we can improve existing Ruby network libraries to enable async operation."
   ja:
 language: English
-vimeo_id: 26557190
+vimeo_id:
+  - 26557190

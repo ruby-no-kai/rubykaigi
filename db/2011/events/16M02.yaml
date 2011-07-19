@@ -16,4 +16,5 @@ abstract:
   en: "We will release Ruby 1.9.3 soon.  The main topics of 1.9.3 are evaluator, threads and the improvement of the test.  We will introduce the release progress of Ruby 1.9.3.  We will also show the each topics from corresponding committers.  The rest time will be Q&A session to Ruby committers. If you have questions to Ruby developers, please ask us."
   ja: "まもなくRuby 1.9.3がリリースされます。細かな仕様バグの修正や機能拡張はあるものの、主に評価器とスレッド、およびテストの改善が目立つリリースとなりました。リリースに向けた現在の状況をご紹介し、また各部分については詳しいコミッタからお話ししようと思います。残り時間をコミッタへの質問コーナーにしようと思いますので、Ruby 開発者への質問がある方はこの機会に聞いてみて下さい。"
 language: Japanese
-vimeo_id: 26508997
+vimeo_id:
+  - 26508997

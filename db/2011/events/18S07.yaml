@@ -19,4 +19,5 @@ abstract:
   en: TBD.
   ja: "２０１０年１０月に公開された分散オブジェクト環境のDeepConnectの新しいインターフェースについて紹介します。"
 language: Japanese
-vimeo_id: 26584855
+vimeo_id:
+  - 26584855

@@ -18,4 +18,5 @@ abstract:
     This talk will introduce their BDD syntax and its mocks feature. More important, how do we use it to write good unit testing."
   ja: 
 language: English
-vimeo_id: 26551307
+vimeo_id:
+  - 26551307

@@ -26,4 +26,5 @@ abstract:
   en: We introduce current status of development in Lightweight Ruby and Ruby chip focused on embedded systems.
   ja: "組込みシステムでの活用を想定した軽量RubyやRubyチップの開発の現状を紹介する．"
 language: Japanese
-vimeo_id: 26506938
+vimeo_id:
+  - 26506938
