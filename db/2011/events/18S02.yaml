@@ -30,3 +30,4 @@ abstract:
     グリッチを生成するいくつかのRubyスクリプトと、動画をグリッチするRubyライブラリ AviGlitch を用いつつ、\n\
     グリッチとは何か、どのようにしてつくられるのか、を実例を示しながら解説します。"
 language: Japanese
+vimeo_id: 26559991

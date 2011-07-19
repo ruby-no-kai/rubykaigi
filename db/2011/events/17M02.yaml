@@ -17,3 +17,4 @@ abstract:
   en: Jpmobile is a most famus Rails plugin for Japanese Mobile Phone. I will introduce the best practice for the construction of the mobile website. In this practice, I will introduce jpmobile settings and the testing method with jpmobile.
   ja: "jpmobileを使ったモバイルサイト制作のベストプラクティスを紹介します。スマートフォンから携帯電話まで、簡単なコンテンツを製作する過程で、jpmobileをどう使うのか、どのように設定をしていくのかについて解説していきます。"
 language: Japanese
+vimeo_id: 26540910

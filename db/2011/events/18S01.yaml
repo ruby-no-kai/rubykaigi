@@ -17,3 +17,4 @@ abstract:
   en: I'd like to introduce how to add your own syntax to the ruby language. Although someone says parse.y defining syntax of the ruby language is ugly and incomprehensible, in my humble opinion you can modify the ruby's syntax without comprehensive understanding of parse.y.
   ja: "Rubyにオレオレ文法を足す方法を紹介します。Rubyの文法が定義されているparse.yは魔窟と呼ばれるほど複雑怪奇です。本発表ではparse.yを完全に理解することを潔く諦めた人が、よく分からないままparse.yに手を入れてちょっとした文法を足してみるためのプロセスについて紹介します。プログラムの構造を理解する一番簡単な方法は、動作するプログラムを少しずついじりながらどのように動作が変わるかを見てみることです。parse.yの理解を諦めいきなりそのものを弄ってみることで逆にparse.yの理解が進み、コミッターへの道が開かれるかもしれません。言語に新しい文法を追加するというと非常に高度なスキルが必要だと思われがちですが、ちょっとしたネタ文法であれば既存のコードからよく似た部分を見つけてきて改造するだけで実現できるということを理解していただき、オレオレ文法を含むRubyが増えることを期待しています"
 language: Japanese
+vimeo_id: 26559563
