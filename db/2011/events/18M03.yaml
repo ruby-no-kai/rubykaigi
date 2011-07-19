@@ -41,3 +41,5 @@ abstract:
   en: "This talk will be very specific to the context for Ruby communities in Japan. we'll discuss about RubyKaigi, Regional RubyKaigi and Regional Ruby Communities in Japan."
   ja: "2006年の「日本Rubyカンファレンス」から始まった、年に1回東京近郊で開催されてきた日本Ruby会議(RubyKaigi)は、今年でひとつの区切りを迎えます。この5年間で、日本のRubyコミュニティの風景はずいぶんと変わりました。RubyKaigi2008の後に始まった地域Ruby会議(Regional RubyKaigi)プロジェクトも、約3年の間に9都市で25回の開催を数えました(念のため補足しておくと、地域Ruby会議は開催したい！と表明する人が尽きるまで終わることはありません)。全国各地にさまざまなRubyistのコミュニティができ、コミュニティ間の交流もおこなわれるようになっています。本セッションではRubyKaigiとRegional RubyKaigi、それからさまざまなRubyコミュニティの隆盛を中心にこの5年間でふりかえります。本セッションでRubyKaigiを取り巻く「エコシステム」を改めて整理します。セッションを通じて「RubyKaigiエコシステムが与えてくれたもの」「RubyKaigi以後の風景への見通し」についての知見を得ることを目的とします。登壇者は、かくたに（日本Rubyの会理事、最古参のRubyKaigiスタッフの一人、Regional RubyKaigiプロジェクトのファウンダ、東京Ruby会議01と大江戸Ruby会議01の実行委員長、地域Rubyist集団Asakusa.rbの自称幹部）、しまだ（日本Rubyの会理事、RubyKaigi2007以来のスタッフ、札幌Ruby会議01,02,03の実行委員長、Ruby札幌ファウンダ）、こしば（RubyKaigi2009以来のスタッフ、RejectKaigi2010実行委員長、東京Ruby会議05実行委員長、闇Ruby会議実行委員長）の3名でお送りします。当日は、登壇者の3人だけでなくRubyKaigi2011に参加される皆さんにとっての「RubyKaigiエコシステムが与えてくれたもの」にも言及したいと考えています。こちらは、セッション当日までにハッシュタグ #kaigieffect  をつけてtweetしてください。"
 language: Japanese
+vimeo_id:
+  - 26598026
