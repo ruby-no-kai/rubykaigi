@@ -10,9 +10,9 @@ presenters:
       en: |-
         Rubyist living in London since 2004 (though did not know about Ruby when I was in Japan. Sorry..)
         ex-DBA(Sybase). Gave a talk "Building real time web" at RubyKaigi 2010 . Working under translation team of http://sinsai.info , earthquake information mapping site.  Currently translating dRuby book into English (due to be published under pragpub)
-        ja: |-
-          井上真(New Bamboo)
-          2004年からロンドンに在住中の逆輸入Rubyist（日本にいる時はRubyのこと知りませんでした。すみません）。元DBA(Sybase)。2010のRubyKaigiでは「リアルタイムウェブができるまで」というトピックで発表。http://sinsai.info
+      ja: |-
+        井上真(New Bamboo)
+        2004年からロンドンに在住中の逆輸入Rubyist（日本にいる時はRubyのこと知りませんでした。すみません）。元DBA(Sybase)。2010のRubyKaigiでは「リアルタイムウェブができるまで」というトピックで発表。http://sinsai.info
   - name:
       en: Hal Seki
       ja: "関治之"

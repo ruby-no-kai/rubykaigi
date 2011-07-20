@@ -6,4 +6,5 @@ abstract:
   en: Lightning Talks are 11 x 5minutes talk in a 60 minutes time slot
   ja: "1人持ち時間5分のライトニングトークです"
 sub_event_ids: ["18M09_01", "18M09_02", "18M09_03", "18M09_04", "18M09_05", "18M09_06", "18M09_07", "18M09_08", "18M09_09", "18M09_10", "18M09_11"]
-
+vimeo_id:
+  - 26631948
