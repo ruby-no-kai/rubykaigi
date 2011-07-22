@@ -52,7 +52,7 @@
                 = RubyKaigi2011::Localizer.value_for_locale(I18n.locale, presenter["bio"])
     - if @event.vimeo_id.present?
       %h3.cboth
-        #{t(:presentation_material)}
+        #{t(:presentation_video)}
       - @event.vimeo_id.each do |vid|
         #{vimeo_frame(vid)}
 
