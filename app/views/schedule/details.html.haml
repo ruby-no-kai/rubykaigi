@@ -50,11 +50,27 @@
                 %p.affiliation= RubyKaigi2011::Localizer.value_for_locale(I18n.locale, affiliation)
               %p
                 = RubyKaigi2011::Localizer.value_for_locale(I18n.locale, presenter["bio"])
+
     - if @event.vimeo_id.present?
       %h3.cboth
         #{t(:presentation_video)}
       - @event.vimeo_id.each do |vid|
         #{vimeo_frame(vid)}
+
+    - if @event.material_url.present?
+      %h3.cboth
+        #{t(:presentation_material)}
+      %a{:href => "#{@event.material_url}"}
+        #{@event.material_url}
+
+    - if @event.postmortem_url.present?
+      %h3.cboth
+        #{t(:postmortem)}
+      %a{:href => "#{@event.postmortem_url}"}
+        #{@event.postmortem_url}
+
+    %br
+    %br
 
     %p.cboth
       - if smartphone?
