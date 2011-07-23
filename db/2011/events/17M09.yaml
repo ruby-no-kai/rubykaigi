@@ -19,3 +19,5 @@ abstract:
 language: "Japanese"
 vimeo_id:
   - 26559212
+material_url: "http://www.slideshare.net/kakutani/the-gate-8616906"
+postmortem_url:

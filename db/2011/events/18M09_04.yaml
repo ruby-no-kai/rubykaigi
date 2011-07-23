@@ -15,3 +15,5 @@ abstract:
   en: "#TODO"
   ja: "#TODO"
 language: Japanese
+material_url: "http://www.slideshare.net/yuumi3/ruby-8640024"
+postmortem_url:

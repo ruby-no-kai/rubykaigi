@@ -17,3 +17,5 @@ abstract:
   en: "#TODO"
   ja: "#TODO"
 language: Japanese
+material_url: "http://www.slideshare.net/ryopeko/rubykaigi2011-lt"
+postmortem_url:

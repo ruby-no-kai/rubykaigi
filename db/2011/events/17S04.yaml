@@ -18,3 +18,5 @@ abstract:
 language: English
 vimeo_id:
   - 26527951
+material_url: "http://www.slideshare.net/flyerhzm/rails-best-practicesrubykaigi"
+postmortem_url:

@@ -18,3 +18,5 @@ abstract:
 language: Japanese
 vimeo_id:
   - 26536996
+material_url: "http://www.dumbo.ai.kyutech.ac.jp/~nagai/RubyTk/?c=plugin;plugin=attach_download;p=%A5%D7%A5%EC%A5%BC%A5%F3%A5%C6%A1%BC%A5%B7%A5%E7%A5%F3%BB%F1%CE%C1;file_name=RubyKaigi2011-nagai.pdf"
+postmortem_url:

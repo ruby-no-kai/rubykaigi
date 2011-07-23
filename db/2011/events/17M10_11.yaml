@@ -15,3 +15,5 @@ abstract:
   en: "#TODO"
   ja: "#TODO"
 language: Japanese
+material_url: "http://www.druby.org/ERBLT.pdf"
+postmortem_url:

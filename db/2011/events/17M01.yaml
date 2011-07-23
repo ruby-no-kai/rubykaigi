@@ -22,3 +22,5 @@ abstract:
 language: Japanese
 vimeo_id:
   - 26539927
+material_url: "http://www.n-z.jp/presen/RubyKaigi2011/SecureProgramming.pdf"
+postmortem_url:

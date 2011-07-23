@@ -22,3 +22,5 @@ abstract:
 language: Japanese
 vimeo_id:
   - 26527636
+material_url: "http://www.druby.org/Drip.pdf"
+postmortem_url:

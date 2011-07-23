@@ -19,3 +19,5 @@ abstract:
 language: Japanese
 vimeo_id:
   - 26698189
+material_url: "http://www.slideshare.net/hiroasari/ruby-8623555"
+postmortem_url:

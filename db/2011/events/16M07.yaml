@@ -26,3 +26,5 @@ abstract:
 language: Japanese
 vimeo_id:
   - 26519360
+material_url: http://www.slideshare.net/nabeta/rubykaigi2011ruby
+postmortem_url:

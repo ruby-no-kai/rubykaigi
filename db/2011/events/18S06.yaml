@@ -16,3 +16,5 @@ abstract:
 language: English
 vimeo_id:
   - 26584318
+material_url: "http://www.slideshare.net/akitaonrails/rubykaigi-2011"
+postmortem_url:

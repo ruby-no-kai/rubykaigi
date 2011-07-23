@@ -15,3 +15,5 @@ abstract:
   en: "#TODO"
   ja: "#TODO"
 language: Japanese
+material_url: "http://www.kmc.gr.jp/~ohai/rubykaigi2011/p.pdf"
+postmortem_url:

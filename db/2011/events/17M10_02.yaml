@@ -16,3 +16,5 @@ abstract:
   em: "I build \"RubyOS\". Almost all parts of the OS will be wrote by Ruby and works in x86 architecture. Now, my ruby 1.9 interpreter(except some parts) works directly on x86 without OS, and ruby code run on this. I will show the demo that irb-like program is running on my Ruby interpreter."
   ja: "基本的にすべてRubyで書いてx86で動くOSをつくろうとしています。Ruby1.9の処理系の大体の部分をハードウェアの上で直接動くようにして、その上でRubyスクリプトを動かしています。とりあえず、その処理系上で動くirbもどきは作ってみたので、その動画をお見せしたいと思います。"
 language: Japanese
+material_url:
+postmortem_url:

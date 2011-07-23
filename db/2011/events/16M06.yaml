@@ -44,3 +44,5 @@ abstract:
 language: Japanese
 vimeo_id:
   - 26650083
+material_url: http://www.slideshare.net/ayumin/issues-of-rubyists
+postmortem_url:

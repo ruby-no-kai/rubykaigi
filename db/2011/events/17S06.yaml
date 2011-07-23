@@ -19,3 +19,5 @@ abstract:
 language: Japanese
 vimeo_id:
   - 26537238
+material_url: "http://shugo.net/tmp/RubyKaigi2011.pdf"
+postmortem_url:

@@ -22,3 +22,5 @@ abstract:
 language: Japanese
 vimeo_id:
   - 26507239
+material_url: http://atdot.net/~ko1/activities/oedorubykaigi01_ko1_pub.pdf
+postmortem_url:

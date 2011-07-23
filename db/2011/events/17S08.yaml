@@ -29,3 +29,5 @@ abstract:
 language: Japanese
 vimeo_id:
   - 26537809
+material_url: "http://www.slideshare.net/kouji/macruby-on-rails"
+postmortem_url:

@@ -39,3 +39,5 @@ abstract:
 language: English
 vimeo_id:
   - 26560371
+material_url: "http://www.slideshare.net/inouemak/sinsai-inforubykaigi"
+postmortem_url:

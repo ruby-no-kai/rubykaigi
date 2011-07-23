@@ -22,3 +22,5 @@ abstract:
 language: English
 vimeo_id:
   - 26527508
+material_url: "http://www.slideshare.net/ehuard/ruby-goes-to-hollywood-8621345"
+postmortem_url:

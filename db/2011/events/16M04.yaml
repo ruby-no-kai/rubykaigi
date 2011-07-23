@@ -18,3 +18,5 @@ abstract:
 language: English
 vimeo_id:
   - 26509659
+material_url: http://satsol-dibi.heroku.com/#1
+postmortem_url:

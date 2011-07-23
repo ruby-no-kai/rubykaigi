@@ -18,3 +18,5 @@ abstract:
 language: English
 vimeo_id:
   - 26510145
+material_url: http://andy.delcambre.com/rubykaigi-2011/#1
+postmortem_url:

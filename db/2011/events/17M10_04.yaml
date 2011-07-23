@@ -16,3 +16,5 @@ Professional Tennis players learn from detailed statistics about how they perfor
 
 Why don't we do the same in Programming? I want to demonstrate how we can, especially how we as individual programmers can help limit the time we spend in the red (failing tests). How long we spend in the red and how often can reflect on how we are working as programmers."
 language: English
+material_url: "http://www.slideshare.net/josephwilk/the-limited-red-society-8421262"
+postmortem_url:
