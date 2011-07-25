@@ -75,6 +75,8 @@ after("deploy:symlink") do
   setup_shared("public/tmp", "pamphlet-20090708.zip")
   setup_shared("public/2011", "rk11prospectus.pdf")
   setup_shared("public/2011", "RubyKaigi2011_FloorGuide.pdf")
+  setup_shared("public/2011", "irc-in-rubykaigi.tar.gz")
+  setup_shared("public/2011", "tweets-in-rubykaigi.tar.gz")
   setup_shared("certs","app_cert.pem")
   setup_shared("certs","app_key.pem")
   setup_shared("certs","paypal_cert_sandbox.pem")
