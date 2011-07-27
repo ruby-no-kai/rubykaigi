@@ -36,5 +36,5 @@ abstract:
 language: Japanese
 vimeo_id:
   - 26541587
-material_url:
+material_url: "http://www.slideshare.net/a_matsuda/rails-development-that-doesnt-hurt"
 postmortem_url:
