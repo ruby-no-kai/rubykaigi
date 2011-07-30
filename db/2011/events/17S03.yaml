@@ -22,5 +22,5 @@ abstract:
 language: English
 vimeo_id:
   - 26527737
-material_url:
+material_url: http://segment7.net/projects/ruby/RubyKaigi/2011/Writing%20Friendly%20Libraries.pdf
 postmortem_url:
