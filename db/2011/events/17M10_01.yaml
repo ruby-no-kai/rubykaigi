@@ -16,5 +16,5 @@ abstract:
   en: "In this presentation, I will show the statistic analysis of changes in CRuby's repository in last 11 month based on categorizing them. I will reveal the reality of CRuby's development: How many bugfixs and enhancements are committed, etc..."
   ja: "約1年間の CRuby のリポジトリへのコミットをその内容で分類して解析の結果を発表します。CRuby のリポジトリの日々の変更のうち、バグ修正や新機能の追加の割合はどうなのか、など CRuby 開発の実態を明らかにします。"
 language: Japanese
-material_url: "http://www.slideshare.net/nagachika/ruby-trunk-changes"
+material_url: "http://www.slideshare.net/nagachika/ruby-trunk-changes-8784169"
 postmortem_url: "http://d.hatena.ne.jp/nagachika/20110717/lt_rubykaigi2011"
