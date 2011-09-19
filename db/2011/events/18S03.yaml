@@ -1,29 +1,29 @@
---- 
+---
 presenters:
-  - name: 
+  - name:
       en: Andrew Grimm
       ja: アンドリュー グリム
-    affiliation: 
+    affiliation:
       en: University of New South Wales
       ja: ニューサウスウェールズ大学 (UNSW)
-    bio: 
+    bio:
       en: Andrew Grimm is a bioinformatician at the University of New South Wales in Sydney, Australia. He came across Ruby while using Rails at his previous job associated with the Encyclopedia of Life, but now specialises in Plain Old Ruby Objects. Previous projects (outside of work) analyzed why you always end up at "Philosophy" in Wikipedia, and a mutation tester in which zombies eat your brains unless your unit tests can kill them all.
       ja: バイオインフォマティクスの科学者
     gravatar: 01bbb59a1c3ef9960f25a97afe7e920f
-title: 
+title:
   en: Finding Black Holes in Ruby with the Small Eigen Collider
   ja: 小型特異衝突型加速器でRuby内のブラックホールの特異点を見つける方法
-abstract: 
+abstract:
   en: |-
     Fear, uncertainty and doubt stopping you from playing with shiny new rubies? Not sure that they're exactly the same as the one you're currently using? Let the Small Eigen Collider smash them up and see what they're made of!
-    
+
     The Small Eigen Collider uses reflection and metaprogramming to create random Ruby code. The code can be run under different implementations, and the results compared to detect inconsistencies between the versions.
-    
+
     So accelerate your Rubies towards the speed of light and see what gets produced. And don't worry about the black holes - the program has created many of them already in the form of  segmentation faults!
-  ja: 
+  ja:
 language: English
 vimeo_id:
   - 26560146
-material_url: "http://www.slideshare.net/agrimm/small-eigen-collider-ruby-kaigi-2011-8620748"
+material_url: "http://www.slideshare.net/agrimm/small-eigen-collider-ruby-kaigi-2011"
 postmortem_url: "http://andrewjgrimm.wordpress.com/2011/09/18/rubykaigi-2011-the-small-eigen-collider-and-bear-impact/"
 tshirt_url: "http://www.zazzle.com/small_eigen_collider_japanese_and_english_text_tshirt-235235813665782515"
