@@ -56,6 +56,7 @@ GEM
       capistrano
       shout-bot
       validatable
+    capistrano_colors (0.5.5)
     capybara (1.0.0)
       mime-types (>= 1.16)
       nokogiri (>= 1.3.3)
@@ -275,6 +276,7 @@ DEPENDENCIES
   capistrano
   capistrano-ext
   capistrano-notification
+  capistrano_colors
   capybara
   configatron
   cucumber-rails (~> 0.3.2)
