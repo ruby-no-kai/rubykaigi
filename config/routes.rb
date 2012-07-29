@@ -1,4 +1,6 @@
 Rubykaigi::Application.routes.draw do
+  match '/:year' => 'teaser#_2012', :constraints => {:year => '2012'}
+
   scope '/:year/:locale', :constraints => {:year => /2\d{3}/, :locale => /en|ja/} do
     match 'registration',
       :to => 'registrations#index',
