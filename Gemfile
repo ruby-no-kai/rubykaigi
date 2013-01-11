@@ -2,7 +2,7 @@
 source :rubygems
 source 'http://gems.github.com'
 
-gem 'rails', '3.0.6', :require => nil
+gem 'rails', '3.0.19', :require => nil
 gem 'rake', '~> 0.8.7'
 gem 'jquery-rails', '>= 0.2.6'
 gem 'mysql2', '~> 0.2.7'
