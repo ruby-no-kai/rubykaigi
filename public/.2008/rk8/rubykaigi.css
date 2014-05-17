@@ -1,0 +1,853 @@
+
+
+
+
+
+/*
+     FILE ARCHIVED ON 23:54:23 Jan 23, 2013 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 13:08:56 May 17, 2014.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+@charset "UTF-8";
+/*
+Title: Hiki
+$Revision: 1.10 $
+Author: SHIMIZU Norio
+Access: toykyo@toykyo.net
+License: GPL
+Comment: Rubyä¼è­°2008ç¨ãã¼ã
+
+tDiaryã®cloverãã¼ãããã¼ã¹ã«ä½æãã¾ããã
+ãªãªã¸ãã«ãã¼ãä½èã®ãã ãã ããããNTããã«æè¬ãã¾ãã
+
+Copyright 2002 (C) by TADA Tadashi <sho@spc.gr.jp>
+Copyright 2002 (C) by NT <nt@24i.net>
+Copyright 2004 (C) by TAKEUCHI Hitoshi <hitoshi@namaraii.com>
+Copyright 2007 (C) by SHIMIZU Norio <toykyo@toykyo.net>
+validated by W3C.
+*/
+/* ChangeLog
+2008-08-24 SHIMIZU Norio <toykyo.net@gmail.com>
+  * modified for iPhone
+
+2007-12-05 SHIMIZU Norio <toykyo@toykyo.net>
+  * modified for RubyKaigi2008
+
+2004-01-23 TAKEUCHI Hitoshi <hitoshi@namaraii.com>
+  * modified for Hiki
+
+2002-09-14 NT <nt@24i.net>
+  * convert for 1.5 series.
+
+2002-05-07 TADA Tadashi <sho@spc.gr.jp>
+  * remove overflow from pre.
+  * line-height of body upto 150%.
+
+2002-03-28 TADA Tadashi <sho@spc.gr.jp>
+  * image color down to 7bit.
+  * no underline for links.
+
+2002-03-28 TADA Tadashi <sho@spc.gr.jp>
+  * support new amazon plugin.
+
+2002-03-27 TADA Tadashi <sho@spc.gr.jp>
+  * fix textarea biyo--n problem.
+*/
+
+body {
+  margin: 2px 22px 0;
+  padding: 0 0px;
+  position: relative;
+  background: #000;
+  color: #333;
+  font-family: Arial,Verdana,Helvetica,'MS UI Gothic',sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: #22a;
+}
+
+a:visited {
+  color: #561464;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  border: none;
+  vertical-align: bottom;
+}
+
+div#content {
+/*  position: relative;
+  background: #fff url("/.2008/rk8/bg-side.gif") top right repeat-y;
+  overflow: hidden;
+*/}
+
+div.adminmenu {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 14px;
+  right: 20px;
+  text-align: right;
+  font-size: 75%;
+}
+
+span.adminmenu {
+  background-color: #FF8D78;
+  color: #B3270C;
+  border-color: #aaa;
+  border-style: solid;
+  border-width: 0px;
+  padding: 2px;
+  white-space: nowrap;
+}
+span.adminmenu a {
+  color: #B3270C;
+}
+
+h1.header,
+.logo {
+  margin: 0 0 0 0;
+  padding: 0 30px !important;
+  height: 112px;
+  line-height: 112px;
+  background: #F00012 url(/.2008/rk8/bg-head.gif) repeat-x top left;
+  color: #fff;
+}
+
+h1.header a,
+.logo a {
+  margin: 0 0px;
+  padding: 0 0;
+  display: block;
+  width: 371px;
+  height: 112px;
+  text-indent: -9999px;
+  overflow: hidden;
+  background: transparent url('/.2008/rk8/rubykaigi2008.jpg') no-repeat left center;
+  color: #fff;
+}
+
+h2 {
+  font-size: 160%;
+  clear: both;
+}
+
+div.day h2 {
+  margin: 0 0 10px;
+  padding: 0.1em 0pt 0.1em 24px;
+  font-size: 140%;
+  color: #B3270C;
+  border: 1px solid #ccc;
+  border-width: 0px 0px 1px 0px;
+  background: transparent url(/.2008/rk8/ruby_mini.png) no-repeat left center;
+}
+
+div.body {
+  margin: 0;
+  padding: 0;
+  line-height: 180%;
+  word-wrap: break-word;
+}
+
+div.body ul {
+}
+
+div.body h3 {
+  font-size: 110%;
+  border-style: dashed;
+  border-color: #78C7FF;
+  border-width: 0px 0px 1px 0px;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  padding: 0 0 0.4em 0;
+  clear: both;
+}
+
+div.body h4 h5 h6 {
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  padding: 4px;
+}
+
+div.body h4 {
+  margin: 1.5em 0 0.5em;
+  padding: 0.2em 0.3em;
+  font-size: 130%;
+  color: #1EA2FF;
+  border-left: solid 3px #78C7FF;
+  clear: both;
+}
+div.body h5 {
+  font-size: 140%;
+}
+div.body h6 {
+  font-size: 110%;
+}
+
+div.body p {
+  margin-top: 0px;
+  margin-bottom: 1.5em;
+  background-color: transparent;
+  line-height: 180%;
+}
+
+div.body pre {
+  color: #000;
+  background-color: #f0f0ff;
+  border-style: solid;
+  border-width: 1px 1px 1px 6px;
+  border-color: #cccccc;
+  padding: 8px;
+  margin-left: 2em;
+}
+
+blockquote {
+  color: #000;
+  background-color: #f0f0ff;
+  border-style: solid;
+  border-color: #cccccc;
+  border-width: 2px 0px 2px 0px;
+  padding: 4px;
+  margin-left: 3em;
+  margin-right: 3em;
+}
+
+div.body blockquote p {
+  margin-left: 0em;
+}
+
+div.body li {
+  margin-left: 0.5em;
+}
+
+div.body dl {
+  margin-left: 0.5em;
+}
+
+div.body dt {
+  border-style: solid;
+  border-color: #eef;
+  border-width: 0px 0px 1px 0px;
+  margin-top: 0.7em;
+}
+
+div.body dd {
+  margin-top: 0.3em;
+  margin-bottom: 0.5em;
+  margin-left: 2em;
+}
+
+div.comment {
+  margin: 22px 0;
+  padding: 12px;
+  border-style: solid;
+  border-color: #ccc;
+  border-width: 1px;
+  color: #000;
+  background-color: #eef;
+  font-size: 90%;
+}
+
+div.form div.comment {
+  margin-right: 1em;
+  color: #000;
+  background-color: #fff;
+}
+
+div.comment p {
+  margin-top: 0px;
+  margin-bottom: 0.5em;
+}
+
+div.comment p.commenttitle {
+  border-style: dashed;
+  border-color: #ccc;
+  border-width: 0px 0px 1px 0px;
+}
+
+
+div.form {
+  border-style: solid;
+  border-color: #c0c0c0;
+  border-width: 1px;
+  color: #000;
+  background-color: #f0f0ff;
+}
+
+div.day div.form {
+  margin: 0 0 0.5em 0;
+  padding: 22px;
+}
+
+div.form form {
+  margin: 0;
+  padding: 4px 4px 4px 4px;
+  width: 100%;
+}
+
+div.form p {
+  margin-top: 0px;
+  margin-bottom: 0.5em;
+  padding-left: 0px;
+}
+
+div.form textarea {
+  margin-left: 2em;
+}
+
+div.referer {
+  text-align: right;
+  font-size: x-small;
+  margin-top: 0px;
+}
+
+div.refererlist {
+  border-style: solid;
+  color: #000;
+  border-color: #c0c0c0;
+  border-width: 1px;
+  background-color: #f0f0ff;
+  margin-top: 0px;
+  margin-left: 2em;
+  margin-bottom: 0.5em;
+  font-size: small;
+}
+
+div.refererlist ul {
+  margin-left: 2em;
+}
+
+div.form div.refererlist {
+  margin-right: 1em;
+  color: #000;
+  background-color: #fff;
+}
+
+div.refererlist p, div.refererlist ul {
+  margin-top: 0px;
+  margin-bottom: 0em;
+  padding: 4px 4px 4px 4px;
+}
+
+hr {
+  margin-top: 0.5em;
+  border-style: solid;
+  border-width: 1px 0px 0px 0px;
+  border-color: #ccc;
+}
+
+hr.sep {
+  display: none;
+}
+
+div.footer {
+  margin: -7px 0 0 0;
+  padding: 20px 0;
+  position: absolute;
+  right: 0px;
+  width: 100%;
+  text-align: right;
+  font-size: 80%;
+  color: #444;
+  background: transparent url(/.2008/rk8/corner-right.gif) no-repeat right top;
+}
+
+form div.body {
+  border-style: solid;
+  border-color: #c0c0c0;
+  border-width: 1px;
+  color: #000;
+  background-color: #f0f0ff;
+  padding: 0px 4px 4px 4px;
+}
+
+table {
+  border-color: #ccc;
+  border-width: 1px;
+  padding: 0px;
+  border-collapse: collapse;
+}
+th, tr, td {
+  border-style: solid;
+  border-color: #ccc;
+  border-width: 1px;
+  padding-top: 4px;
+  padding-left: 4px;
+}
+
+/*
+ for plugins
+ */
+
+/* calendar */
+div.calendar {
+  font-size: x-small;
+}
+
+/* calendar2 */
+table.calendar {
+  font-size: x-small;
+  line-height: 100%;
+  border-width: 0px;
+}
+
+table.calendar td {
+  margin: 0px;
+  text-align: right;
+  padding: 0px;
+  margin: 0px;
+}
+
+table.calendar td.calendar-prev-month, table.calendar td.calendar-current-month, table.calendar td.calendar-next-month {
+  text-align: center;
+}
+
+/* recent_list */
+p.recentitem {
+  font-size: small;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+div.recentsubtitles {
+  font-size: x-small;
+  margin-top: 0px;
+  margin-bottom: 1em;
+  margin-left: 1em;
+}
+
+/* footnote */
+div.body span.footnote {
+  vertical-align: super;
+  font-size: 80%;
+}
+
+div.footnote {
+  border-style: solid;
+  border-color: #c0c0c0;
+  border-width: 1px 0px 0px 0px;
+  margin-left: 3em;
+  font-size: small;
+}
+
+/* amazon plugin */
+img.left {
+  border-width: 1px;
+  border-color: #000080;
+  float: left;
+}
+
+img.right {
+  border-width: 1px;
+  border-color: #000080;
+  float: right;
+}
+
+/* similarity Plugin */
+.bulkfeedsSimilarity {
+  width: 500px;
+}
+
+.bulkfeedsSimilarityHeader {
+  font-weight: bold;
+  background: #ccc;
+  padding: 0.2em;
+  margin-bottom: 0.2em;
+}
+
+.bulkfeedsSimilarityHeader a {
+  font-weight: bold;
+  color: #000;
+}
+
+.bulkfeedsSimilarityHeader a:visited {
+  color: #000;
+}
+
+.bulkfeedsSimilarityItems {
+  margin: 0;
+  padding-left: 1em;
+  list-style: none;
+}
+
+.bulkfeedsSimilarityFooter {
+  text-align: center;
+  margin-top: 0.5em;
+}
+
+.bulkfeedsSimilarityFooter a {
+  color: #000;
+}
+
+.bulkfeedsSimilarityFooter a:visited {
+  color: #000;
+}
+
+.comments-head {
+  padding: 0.4em;
+  background: #ccc;
+}
+
+.comments-head a {
+  font-weight: bold;
+  color: #000;
+}
+
+.comments-head a:visited {
+  font-weight: bold;
+  color: #000;
+}
+
+.comments-body {
+  padding: 0.5em;
+}
+
+.comments-body p {
+  margin: 0.2em;
+}
+
+.hilight {
+  color: black;
+  background: #ff6666;
+}
+
+div.section {
+  clear: both;
+}
+
+div.main {
+  margin: 0;
+  padding: 18px 30px;
+  background: #fff url(/.2008/rk8/corner-left.gif) no-repeat bottom left;
+  border-right: 224px solid #E6E6E6;
+}
+
+div.main img {
+  float: left;
+  margin: 10px 15px 10px 0;
+}
+
+div.main li img {
+  float: none;
+}
+
+div.sidebar {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 112px;
+  right: 0px;
+  width: 224px;
+  height: auto;
+  font-size: 75%;
+  background: #E6E6E6;
+  z-index: 100;
+}
+.sidebar h2,
+.sidebar h3 {
+  margin: 0 !important;
+  padding: 0 10px 0 36px;
+  height: 29px;
+  line-height: 29px;
+  font-size: 120%;
+  color: #fff;
+  background: #888 url(/.2008/rk8/side-button.gif) no-repeat;
+}
+.sidebar h4 {
+  margin: 10px auto 0;
+  padding: 0 0 0 0;
+  width: 200px;
+  height: 25px;
+  line-height: 25px;
+  font-size: 100%;
+  text-align: center;
+  color: #666;
+  background: #e6e6e6 url(/.2008/rk8/sponsor-title-bg.gif) no-repeat;
+}
+div.sidebar h2 a,
+div.sidebar h3 a {
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
+div.sidebar h5 {
+  margin: 0;
+  padding: 8px 20px;
+  background: #ccc;
+  font-size: 100%;
+}
+
+div.sidebar dl {
+  margin: 0px;
+  padding: 0px;
+}
+div.sidebar dl dt {
+  margin: 0px;
+  padding: 6px 20px;
+  background: #ccc;
+  font-weight: bold;
+}
+div.sidebar dl dd,
+div.sidebar p {
+  margin: 0px;
+  padding: 6px 5px 6px 20px;
+  background: #e6e6e6;
+}
+
+div.sidebar dl a {
+  color: #333;
+  text-decoration: underline;
+}
+div.sidebar dl a:hover {
+  color: #999;
+}
+
+div.sidebar ul {
+  margin: 0px auto 10px;
+  padding: 10px 0;
+  width: 200px;
+  background: #fff url(/.2008/rk8/sponsor-footer.gif) bottom no-repeat;
+}
+div.sidebar ul li {
+  margin: 0px;
+  padding: 10px 0;
+  list-style: none;
+  text-align: center;
+}
+div.sidebar ul a {
+  color: #333;
+  text-decoration: none;
+}
+div.sidebar ul a:hover {
+  color: #999;
+}
+/* for tdiary */
+div.sidebar ul.recent-list {
+  background: transparent;
+}
+div.sidebar ul.recent-list ul.recent-list-item {
+  margin: 0;
+  padding: 0;
+  background: transparent;
+}
+
+
+div.sidebar form {
+  position: absolute;
+  top: -40px;
+  left: 22px;
+  margin: 0px 0 0 0;
+  padding: 0px 0 0px;
+}
+
+
+/*
+ããã³ãçç¥çæ¬æ
+*/
+div.commentshort {
+  font-size: 0.9em;
+  margin-left: 0.5em;
+}
+
+span.commentator {
+  font-weight: bold;
+}
+
+div.commentshort p {
+  margin-top: 0.5em;
+  margin-bottom: 0.2em;
+  line-height: 1.2em;
+}
+
+/*
+ããã³ãæ¬ä½
+*/
+div.commentbody {
+  font-size: 0.9em;
+  margin: 0.5em;
+  line-height: 1.2em;
+}
+
+/*
+ããã³ãããäººã®æå ±
+*/
+div.commentator {
+  line-height: 1.5em;
+}
+
+/*
+ããã³ãæ¬æ
+*/
+div.commentbody p {
+  margin: 0.5em;
+  margin-left: 2em;
+}
+
+/*
+ãã©ã¼ã ã®è¨­å®
+*/
+div.form form {
+  margin: 0;
+  padding: 0;
+}
+
+div.form div.caption {
+  font-size: 0.9em;
+  margin: 0.5em;
+}
+
+div.form form.comment {
+  font-size: 0.9em;
+}
+
+div.field {
+  display: inline;
+  margin-right: 2em;
+}
+
+form.comment input {
+  margin-left: 1em;
+}
+
+div.textarea {
+  display: block;
+  vertical-align: top;
+}
+
+form.comment textarea {
+  display: block;
+  margin-left: 3em;
+  width: 30em;
+  height: 5em;
+}
+
+div.button {
+  display: block;
+  margin-left: 3em;
+}
+
+/*
+æ´æ°ãã©ã¼ã 
+*/
+form.update {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+form.update input, form.update textarea, form.commentstat input {
+}
+
+form.update span.field {
+  display: inline;
+  margin-left: 0em;
+  margin-right: 0.5em;
+}
+
+form.update div.field.title {
+  display: block;
+  margin-top: 1em;
+}
+
+form.update div.field.title input {
+  margin-left: 0.5em;
+}
+
+form.update div.textarea {
+  display: block;
+  margin-top: 1em;
+}
+
+form.update textarea {
+  display: block;
+  margin-left: 0em;
+  margin-bottom: 1em;
+  width: 100%;
+  height: 30em;
+  border: 1px solid #C0C0C0;
+}
+
+form.update span.checkbox.hidediary {
+  margin-left: 1em;
+}
+
+/*
+ããã³ãç¶æå¤æ´ãã©ã¼ã 
+*/
+div.comment form {
+  margin-top: 0em;
+}
+
+@media print {
+  div.main { margin-left: 0%; }
+  div.adminmenu { display: none; }
+  div.sidebar { display: none; }
+  div.comment   { display: none; }
+  div.footer    { display: none; }
+  div.referer   { display: none; }
+}
+
+@media screen {
+  div.main {  }
+  div.adminmenu { display: block; }
+  div.sidebar { display: block; }
+  div.comment { display: block; }
+  div.footer { display: block; }
+  div.footer div { display: block; }
+  div.referer { display: block;}
+}
+
+
+div.hello {
+  text-align: right;
+  font-size: 80%;
+  margin-top: 0px;
+}
+
+
+/*
+iPhoneå¯¾å¿
+*/
+@media screen and (max-device-width: 480px) {
+  html {
+    width: 580px !important;
+  }
+  div.logo {
+    padding: 0 20px !important;
+  }
+  div.logo a {
+    width: auto !important;
+  }
+  div.main {
+    padding: 20px !important;
+    border-right: none !important;
+    width: 100% !important;
+    background: #FFFFFF none !important;
+  }
+  div.body {
+    word-wrap: break-word !important;
+  }
+  div.body a {
+    word-break: break-all !important;
+  }
+  div.sidebar {
+    display: none !important;
+  }
+  div.footer {
+    background: none !important;
+  }
+  div.adminmenu {
+    right: -20px !important;
+    top: 5px !important;
+  }
+}

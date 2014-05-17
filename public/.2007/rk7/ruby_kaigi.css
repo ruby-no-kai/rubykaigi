@@ -1,0 +1,678 @@
+
+
+
+
+
+/*
+     FILE ARCHIVED ON 2:52:40 Jan 17, 2013 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 13:14:56 May 17, 2014.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+赤：D2003C
+グレー：646E78
+薄いグレー：B1B6BB
+*/
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  color: #000;
+  font-family: sans-serif;
+}
+
+a:link, a:visited {
+  color: #d2003c;
+}
+
+a:hover, a:active {
+  color: #990000;
+}
+
+div.adminmenu {
+  clear: both;
+  text-align: right;
+  margin: 0 30px;
+  padding: 0.2em 0.5em 0.5em 0.5em;
+  padding-right: 0;
+  font-size: 75%;
+  line-height: 2.5em;
+}
+
+span.adminmenu {
+  background-color: #fff0f0;
+  color: #ffffff;
+  border-color: #aaa;
+  border-style: solid;
+  border-width: 0px 1px 1px 0px;
+  padding: 2px;
+  white-space: nowrap;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  clear: both;
+}
+
+h1 {
+  height: 64px;
+  line-height: 64px;
+  text-align: right;
+  padding-bottom: 5px;
+}
+
+div.main h2 {
+  font-size: 140%;
+  margin: 20px 20px;
+  padding: 0.1em 0 0.1em 24px;
+  border-style: solid;
+  border-color: #d2003c;
+  border-width: 0 0 1px 0;
+  background-image: url(/ruby_mini.png); 
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+div.body {
+  margin: 0 20px;
+  line-height: 120%;
+}
+
+div.body h3 {
+  font-size: 120%;
+  border-style: dashed;
+  border-color: #d2003c;
+  border-width: 0px 0px 1px 0px;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  padding: 0 0 0.4em 0;
+}
+
+div.body h4 h5 h6 {
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  padding: 4px;
+}
+
+div.body h4 {
+  font-size: 110%;
+  border-left: solid 3px #d2003c;
+  padding: 0.2em 0.3em;
+}
+div.body h5 {
+  font-size: 100%;
+}
+div.body h6 {
+  font-size: 100%;
+}
+
+div.body p {
+  margin-top: 0px;
+  margin-bottom: 0.5em;
+  color: #000;
+  background-color: transparent;
+  line-height: 150%;
+}
+
+div.body pre {
+  color: #000;
+  background-color: #fff0f0;
+  border-style: solid;
+  border-width: 1px 1px 1px 6px;
+  border-color: #cccccc;
+  padding: 8px;
+  margin-left: 2em;
+}
+
+blockquote {
+  font-size: 90%;
+  margin: 0 2em;
+}
+
+div.body blockquote p {
+  margin-left: 0em;
+}
+
+div.body li {
+  margin-left: 0.5em;
+}
+
+div.body dl {
+  margin-left: 0.5em;
+}
+
+div.body dt {
+  border-style: solid;
+  border-color: #fcc;
+  border-width: 0px 0px 1px 0px;
+  margin-top: 0.7em;
+  font-weight: bold;
+}
+
+div.body dd {
+  margin: 0.2em 0 0.2em 2em;
+  line-height: 1.3em;
+}
+
+div.comment {
+  border-style: solid;
+  border-color: #ccc;
+  border-width: 1px;
+  color: #000;
+  background-color: #fee;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  margin-left: 1em;
+  padding: 4px;
+  font-size: 90%;
+}
+
+div.form div.comment {
+  margin-right: 1em;
+  color: #000;
+  background-color: #fff;
+}
+
+div.comment p {
+  margin-top: 0px;
+  margin-bottom: 0.5em;
+}
+
+div.comment p.commenttitle {
+  border-style: dashed;
+  border-color: #ccc;
+  border-width: 0px 0px 1px 0px;
+}
+
+
+div.form {
+  clear: both;
+  border-style: solid;
+  border-color: #c0c0c0;
+  border-width: 1px;
+  color: #000;
+  background-color: #fff0f0;
+}
+
+div.day div.form {
+  margin-top: 0px;
+  margin-bottom: 0.5em;
+  margin-left: 2em;
+}
+
+div.form form {
+  margin: 0;
+  padding: 4px 4px 4px 4px;
+  width: 100%;
+}
+
+div.form p {
+  margin-top: 0px;
+  margin-bottom: 0.5em;
+  padding-left: 4px;
+}
+
+div.form textarea {
+  margin-left: 2em;
+}
+
+div.referer {
+  text-align: right;
+  font-size: x-small;
+  margin-top: 0px;
+}
+
+div.refererlist {
+  border-style: solid;
+  color: #000;
+  border-color: #c0c0c0;
+  border-width: 1px;
+  background-color: #fff0f0;
+  margin-top: 0px;
+  margin-left: 2em;
+  margin-bottom: 0.5em;
+  font-size: small;
+}
+
+div.refererlist ul {
+  margin-left: 2em;
+}
+
+div.form div.refererlist {
+  margin-right: 1em;
+  color: #000;
+  background-color: #fff;
+}
+
+div.refererlist p, div.refererlist ul {
+  margin-top: 0px;
+  margin-bottom: 0em;
+  padding: 4px 4px 4px 4px;
+}
+
+hr {
+  margin-top: 0.5em;
+  border-style: solid;
+  border-width: 2px 0px 0px 0px;
+  border-color: #ccc;
+}
+
+hr.sep {
+  display: none;
+}
+
+div.footer {
+  text-align: right;
+  font-size: 80%;
+  color: #444;
+}
+
+form div.body {
+  border-style: solid;
+  border-color: #c0c0c0;
+  border-width: 1px;
+  color: #000;
+  background-color: #fff0f0;
+  padding: 0px 4px 4px 4px;
+}
+
+table {
+  width: 80%;
+  border-color: #ccc;
+  border-width: 1px;
+  padding: 0px;
+  border-collapse: collapse;
+}
+th, tr, td {
+  border-style: solid;
+  border-color: #ccc;
+  border-width: 1px;
+  padding-top: 4px;
+  padding-left: 4px;
+}
+
+/*
+ for plugins
+ */
+
+/* recent_list */
+p.recentitem {
+  font-size: small;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+div.recentsubtitles {
+  font-size: x-small;
+  margin-top: 0px;
+  margin-bottom: 1em;
+  margin-left: 1em;
+}
+
+/* footnote */
+div.body span.footnote {
+  vertical-align: super;
+  font-size: 80%;
+}
+
+div.footnote {
+  border-style: solid;
+  border-color: #c0c0c0;
+  border-width: 1px 0px 0px 0px;
+  margin-left: 3em;
+  font-size: small;
+}
+
+/* amazon plugin */
+img.left {
+  border-width: 1px;
+  border-color: #000080;
+  float: left;
+}
+
+img.right {
+  border-width: 1px;
+  border-color: #000080;
+  float: right;
+}
+
+.comments-head {
+  padding: 0.4em;
+  background: #ccc;
+}
+
+.comments-head a {
+  font-weight: bold;
+  color: #000;
+}
+
+.comments-head a:visited {
+  font-weight: bold;
+  color: #000;
+}
+
+.comments-body {
+  padding: 0.5em;
+}
+
+.comments-body p {
+  margin: 0.2em;
+}
+
+.hilight {
+    color: black;
+    background: #ff6666;
+}
+
+div.main {
+/*  float: right; */
+}
+
+div.section {
+  clear: both;
+}
+
+div.sidebar {
+  position: absolute;
+  top: 120px;
+  left: 0px;
+  width: 180px;
+  padding: 0 2px 0 2px;
+}
+/*
+div.sidebar h2 {
+  color: black;
+  background-color: #b1b6bb;
+  font-size: 100%;
+  padding: 0.2em 0.5em;
+  border: none;
+  border-bottom: solid 1px white;
+}
+*/
+
+div.sidebar h3 {
+  margin: 0;
+  text-indent: 0;
+  font-size: 100%;
+  padding: 0.2em 0.5em;
+  color: white;
+  background-color: #646e78;
+  border-bottom: solid 1px white;
+}
+
+div.sidebar ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+div.sidebar li {
+  font-size: 80%;
+  list-style-type: none;
+  margin: 0 0 20px;
+  padding: 0pt;
+  text-align: center;
+}
+
+div.sidebar h3 a:link, div.sidebar h3 a:visited,
+div.sidebar h3 a:hover, div.sidebar h3 a:active {
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 0;
+  text-decoration: underline;
+}
+div.sidebar h3:hover, div.sidebar h3:active {
+  background-color: #b1b6bb;
+}
+div.sidebar h3 a:hover, div.sidebar h3 a:active {
+  color: #d2003c;
+}
+
+div.sidebar form {
+  margin: 0em 0em 0.5em 0em;
+  padding: 0px;
+}
+
+div.sidebar dl {
+  margin: 0;
+  font-size: 80%;
+  border-bottom: solid 1px white;
+}
+
+div.sidebar dt {
+  margin: 0;
+  padding: 0.4em 0 0.2em 0.2em;
+  background-color: #ddd;
+  border-bottom: solid 1px white;
+}
+
+div.sidebar dd {
+  margin: 0;
+  padding: 0.2em 0.5em 0.2em 1em;
+  background-color: #ddd;
+}
+
+div.sidebar p {
+  font-size: 80%;
+}
+
+/*
+div.sidebar img {
+  display: block;
+  margin: 15px auto;
+}
+*/
+
+/*
+ツッコミ省略版本文
+*/
+div.commentshort {
+  font-size: 0.9em;
+  margin-left: 0.5em;
+}
+
+span.commentator {
+  font-weight: bold;
+}
+
+div.commentshort p {
+  margin-top: 0.5em;
+  margin-bottom: 0.2em;
+  line-height: 1.2em;
+}
+
+/*
+ツッコミ本体
+*/
+div.commentbody {
+  font-size: 0.9em;
+  margin: 0.5em;
+  line-height: 1.2em;
+}
+
+/*
+ツッコミした人の情報
+*/
+div.commentator {
+  line-height: 1.5em;
+}
+
+/*
+ツッコミ本文
+*/
+div.commentbody p {
+  margin: 0.5em;
+  margin-left: 2em;
+}
+
+/*
+フォームの設定
+*/
+div.form form {
+  margin: 0em 0em 0em 2em;
+}
+
+div.form div.caption {
+  font-size: 0.9em;
+  margin: 0.5em;
+}
+
+div.comment {
+  display: none;
+}
+
+div.form form.comment {
+  font-size: 0.9em;
+}
+
+div.field {
+  display: inline;
+  margin-right: 2em;
+}
+
+form.comment input {
+  margin-left: 1em;
+}
+
+div.textarea {
+  display: block;
+  vertical-align: top;
+}
+
+form.comment textarea {
+  display: block;
+  margin-left: 3em;
+  width: 30em;
+  height: 5em;
+}
+
+div.button {
+  display: block;
+  margin-left: 3em;
+}
+
+/*
+更新フォーム
+*/
+form.update {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+form.update input, form.update textarea, form.commentstat input {
+}
+
+form.update span.field {
+  display: inline;
+  margin-left: 0em;
+  margin-right: 0.5em;
+}
+
+form.update div.field.title {
+  display: block;
+  margin-top: 1em;
+}
+
+form.update div.field.title input {
+  margin-left: 0.5em;
+}
+
+form.update div.textarea {
+  display: block;
+  margin-top: 1em;
+}
+
+form.update textarea {
+  display: block;
+  margin-left: 3em;
+  margin-bottom: 1em;
+  width: 80%;
+  height: 15em;
+}
+
+form.update span.checkbox.hidediary {
+  margin-left: 1em;
+}
+
+/*
+ツッコミ状態変更フォーム
+*/
+div.comment form {
+  margin-top: 0em;
+}
+
+@media print {
+  div.main { margin-left: 0%;}
+  div.adminmenu { display: none; }
+  div.sidebar { display: none; }
+  div.comment   { display: none; }
+  div.footer    { display: none; }
+  div.referer   { display: none; }
+}
+
+@media screen {
+  div.main { 
+    margin: 133px 0 0;
+    padding: 0 10px 0 190px;
+  }
+  div.adminmenu { display: block;  }
+  div.sidebar { display: block; }
+  div.comment { display: none; }
+  div.footer { display: block; }
+  div.footer div { display: block; }
+  div.referer { display: block;}
+}
+
+
+div.hello {
+  text-align: right;
+  font-size: 80%;
+  margin-top: 0px;
+}
+
+div.logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 106px;
+  border-bottom: 4px solid #000;
+  background-color: white;
+  background-image: url(/.2007/rk7/header_bg.gif);
+  background-repeat: repeat-x;
+  background-position: right top;
+}
+div.logo a {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 30px;
+  width: 445px;
+  height: 93px;
+  background-image: url(/.2007/rk7/logo.gif);
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+
+img {
+  border: none;
+}
+
+div.main img {
+  float: left;
+  margin: 10px 15px 10px 0;
+}
+
+div.logo img {
+  float: none;
+  margin: 0;
+  display: none;
+}
+
+div.main li {
+  clear: both;
+}

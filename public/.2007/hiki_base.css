@@ -1,0 +1,48 @@
+
+
+
+
+
+/*
+     FILE ARCHIVED ON 2:52:36 Jan 17, 2013 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 13:06:50 May 17, 2014.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+ins.added {
+	font-weight: bold;
+}
+
+del.deleted {
+	text-decoration: line-through;
+}
+
+form.update textarea.keyword {
+        width: 15em;
+        height: 3em;
+}
+
+/* 02help */
+div.helptlbr {
+	font-size: small;
+	padding: 1px;
+}
+
+span.helpbttn {
+	border-style: solid;
+	border-width: 0px 0px 1px 0px;
+}
+
+@media print{
+  div.adminmenu{
+    display: none;
+  }
+  div.main{
+    margin-left: 0;
+  }
+  div.sidebar{
+    display: none;
+  }
+}
